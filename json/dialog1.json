@@ -1,0 +1,49 @@
+
+{
+    "test": [ 
+    { 
+      "question": "Привет, ты должно быть двоюродный брат Джона Мэт, так? Из Сан  Диего?", 
+      "response": "Hi, you must be John's cousin Matt, right? From San Diego?" 
+    }, 
+    { 
+      "question": "Точно! Я только прошлой ночью приехал.", 
+      "response": "Correct! I just got in last night." 
+    },
+    { 
+      "question": "Я Тодд, сосед Джона по комнате в Политене. Рад с тобой познакомится. Могу заверить, что я не совсем то, о чем тебе говорил Джон.", 
+      "response": "I'm Todd, John's roommate from Tech. Glad to meet you. I can assure you that I'm not anything like what John has told you." 
+    },
+    { 
+      "question": "Я тоже счастлив познакомиться с тобой, и, да я о тебе слышал. Играешь в футбол и необыкновенно любишь вечеринки.", 
+      "response": "I'm happy to meet you, too, and, yes  I have heard about you. Fottball player and part animal extraordinaire" 
+    },
+    { 
+      "question": "Футбол, да, и если смотреть на факты, я действительно люблю вечеринки. Но расскажи побольше о себе и чем ты занимаешься в Сан Диего. ", 
+      "response": "Football, yes, and as a matter of fact, I do like parties. But tell me more about yourself and what you do in San Diego." 
+    },
+    { 
+      "question": "Ну, я больше болельщик, чем игрок в футбол. Ты знаешь, в Сан диего фантастическое побережье, и мы можем заниматься серфингом целый день, а потом ночью на пляже устраивать вечеринки.", 
+      "response": "Well, I'm more a suffer than a football player. You know, San Diego has a fantastic coast, and we can surf all day and then party on the beach at night." 
+    },
+    { 
+      "question": "Звучит потрясающе. Сколько ты пробудешь?", 
+      "response": "That sounds awesome. How long are you staying?" 
+    },
+    { 
+      "question": "Ну, я здесь на две недели. Джон обещал мне непрерывную программу, что-то вроде смеси осморта достопримечательностей, встреч с его друзьями, исследования местной тусовки и желательно похода в горы на пару дней. ", 
+      "response": "Well, I'll be here for two weeks. John had promised me a nonstop schedule, kind of a mix of sightseeing, meeting his friends, checking out the local scene, and, hopefully camping in the mountains for a couple of days." 
+    },
+    { 
+      "question": "Джон отличный парень, и ты можешь быть уверен, он знает местную тусовку. Он знает каждого в городе. Я уверен, он покажет тебе хорошее время. А его друзья помогут в этом.", 
+      "response": "John's a good guy, and you can be sure he knows the local scene. He knows everybody in town. I'm sure he'll show you a good time. And his friends are here to help." 
+    },
+    { 
+      "question": "", 
+      "response": "Thanks so much - I really appreciate that. I'm still a bit jet-lagged at the moment but should be in good shape by tomorrow. I'm looking forward to hearing what John has in store for me." 
+    },
+    { 
+      "question": "", 
+      "response": "Don't worry. We'll take good care of you. And don't be surprised if we show up in your doorstep in San Diego one day, ready for surfing!" 
+    }
+  ] 
+}
