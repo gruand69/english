@@ -64,8 +64,8 @@ class DiffWindow(QtWidgets.QDialog):
         if start == finish:
             finish += 1
             self.label_ans.setPlainText(self.response + ' ')
-        print(start)
-        print(finish)
+        # print(start)
+        # print(finish)
         highlight_format = QTextCharFormat()
         highlight_format.setBackground(QColor("red"))
 
@@ -73,7 +73,7 @@ class DiffWindow(QtWidgets.QDialog):
         # cursor = QTextCursor(self.label_ans.setCursor())
 
         cursor.setPosition(start)
-        print(cursor.position())
+        # print(cursor.position())
         cursor.movePosition(QTextCursor.Right, QTextCursor.KeepAnchor,
                             finish-start)
         print(cursor.position())
@@ -131,6 +131,7 @@ class CheckWindow(QtWidgets.QDialog):
         if answer == self.response:
             QtWidgets.QMessageBox.information(self, 'Mesage', 'Excellent!')
         else:
+            self.textEdit.clear()
             dialog = DiffWindow(self.response,
                                 self.textEdit.toPlainText())
             dialog.exec_()

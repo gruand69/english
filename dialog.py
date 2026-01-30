@@ -2,6 +2,7 @@ import os
 import json
 from PyQt5 import QtCore, QtWidgets
 from PyQt5.QtGui import QFont
+from PyQt5.QtMultimedia import QMediaPlayer, QMediaContent
 from check_phrase import CheckWindow
 
 
@@ -9,6 +10,7 @@ class MyWindow(QtWidgets.QWidget):
     def __init__(self, lst, parent=None):
         self.lst = lst
         self.i = 0
+        self.mp = QMediaPlayer()
         QtWidgets.QWidget.__init__(self, parent)
 
         self.labelRus = QtWidgets.QLabel(self.lst[self.i]['question'])
@@ -31,7 +33,8 @@ class MyWindow(QtWidgets.QWidget):
 
         self.btnBack = QtWidgets.QPushButton("<< &Back")
         self.btnForw = QtWidgets.QPushButton("&Forward >>")
-        self.btnCheck = QtWidgets.QPushButton("Prase")
+        self.btnCheck = QtWidgets.QPushButton("&Prase")
+        self.btnAudio = QtWidgets.QPushButton("&Audio")
         self.btnQuit = QtWidgets.QPushButton("&Close the window")
 
         self.vboxLabel = QtWidgets.QVBoxLayout()
@@ -48,6 +51,7 @@ class MyWindow(QtWidgets.QWidget):
 
         self.vboxManBtn = QtWidgets.QVBoxLayout()
         self.vboxManBtn.addWidget(self.btnCheck)
+        self.vboxManBtn.addWidget(self.btnAudio)
         self.vboxManBtn.addWidget(self.btnQuit)
 
         self.MainLayout = QtWidgets.QHBoxLayout()
@@ -61,6 +65,16 @@ class MyWindow(QtWidgets.QWidget):
         self.btnBack.clicked.connect(self.on_btnBack_clicked)
         self.btnForw.clicked.connect(self.on_btnForw_clicked)
         self.btnCheck.clicked.connect(self.on_btnCheck_clicked)
+        self.btnAudio.clicked.connect(self.on_btnAudio_clicked)
+
+    def on_btnAudio_clicked(self):
+        mc = QMediaContent(QtCore.QUrl.fromLocalFile(
+            f"/home/gruand69/Dev/english/media/dialog1/{self.i+1}.mp3"))
+        self.mp.setMedia(mc)
+        self.mp.stop()
+        self.mp.setVolume(50)
+        self.mp.setPosition(0)
+        self.mp.play()
 
     def on_btnCheck_clicked(self):
         dialog = CheckWindow(self.lst[self.i]['question'],

@@ -15,7 +15,7 @@
     },
     { 
       "question": "Я тоже счастлив познакомиться с тобой, и, да я о тебе слышал. Играешь в футбол и необыкновенно любишь вечеринки.", 
-      "response": "I'm happy to meet you, too, and, yes  I have heard about you. Fottball player and part animal extraordinaire" 
+      "response": "I'm happy to meet you, too, and, yes  I have heard about you. Football player and party animal extraordinaire" 
     },
     { 
       "question": "Футбол, да, и если смотреть на факты, я действительно люблю вечеринки. Но расскажи побольше о себе и чем ты занимаешься в Сан Диего. ", 
@@ -38,11 +38,11 @@
       "response": "John's a good guy, and you can be sure he knows the local scene. He knows everybody in town. I'm sure he'll show you a good time. And his friends are here to help." 
     },
     { 
-      "question": "", 
-      "response": "Thanks so much - I really appreciate that. I'm still a bit jet-lagged at the moment but should be in good shape by tomorrow. I'm looking forward to hearing what John has in store for me." 
+      "question": "Большое спасибо, я очень ценю это. Я до сих пор не отошел от перелета, но завтра буду уже в хорошей форме. Я с нетерпением жду, что Джон для меня приготовил.", 
+      "response": "Thanks so much, I really appreciate that. I'm still a bit jet-lagged at the moment but should be in good shape by tomorrow. I'm looking forward to hearing what John has in store for me." 
     },
     { 
-      "question": "", 
+      "question": "Не беспокойся. Мы о тебе позаботимся. И не удивляйся, что мы однажды появимся у твоей двери в Сан Диего, готовые к серфингу!", 
       "response": "Don't worry. We'll take good care of you. And don't be surprised if we show up in your doorstep in San Diego one day, ready for surfing!" 
     }
   ] 
