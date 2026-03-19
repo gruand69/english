@@ -1,4 +1,3 @@
-import difflib
 import os
 from PyQt5 import QtCore, QtWidgets
 from PyQt5.QtGui import QFont, QTextCharFormat, QColor, QTextCursor
@@ -18,7 +17,7 @@ class DiffWindow(QtWidgets.QDialog):
         self.label_quest.setStyleSheet(
             "border: 1px dashed black; border-radius: 10px;")
 
-        self.label_ans = QtWidgets.QTextEdit(self.response)
+        self.label_ans = QtWidgets.QTextEdit(self.response + ' ')
         # self.label_ans.setWordWrap(True)
         # self.label_ans.setAlignment(
         #     QtCore.Qt.AlignLeft | QtCore.Qt.AlignVCenter)
@@ -52,33 +51,20 @@ class DiffWindow(QtWidgets.QDialog):
         self.close()
 
     def compare(self):
-
-        s = difflib.SequenceMatcher(None,
-                                    self.question,
-                                    self.response)
-        # for tag, i1, i2, j1, j2 in s.get_opcodes():
-        #     print(f"{tag} a[{i1}:{i2}] b[{j1}:{j2}]")
-        # print(s.get_opcodes()[1][3], s.get_opcodes()[1][4])
-        start = s.get_opcodes()[1][3]
-        finish = s.get_opcodes()[1][4]
-        if start == finish:
-            finish += 1
-            self.label_ans.setPlainText(self.response + ' ')
-        # print(start)
-        # print(finish)
-        highlight_format = QTextCharFormat()
-        highlight_format.setBackground(QColor("red"))
-
-        cursor = QTextCursor(self.label_ans.textCursor())
-        # cursor = QTextCursor(self.label_ans.setCursor())
-
-        cursor.setPosition(start)
-        # print(cursor.position())
-        cursor.movePosition(QTextCursor.Right, QTextCursor.KeepAnchor,
-                            finish-start)
-        print(cursor.position())
-        cursor.mergeCharFormat(highlight_format)
-        # self.label_ans.setText(self.)
+        if self.response:
+            k = 0
+            while self.response and self.response[k] == self.question[k]:
+                if (k == len(self.response)-1) or (k == len(self.question)-1):
+                    k += 1
+                    break
+                k += 1
+            highlight_format = QTextCharFormat()
+            highlight_format.setBackground(QColor("red"))
+            cursor = QTextCursor(self.label_ans.textCursor())
+            cursor.setPosition(k)
+            cursor.movePosition(QTextCursor.Right, QTextCursor.KeepAnchor,
+                                1)
+            cursor.mergeCharFormat(highlight_format)
 
 
 class CheckWindow(QtWidgets.QDialog):
@@ -130,10 +116,12 @@ class CheckWindow(QtWidgets.QDialog):
         answer = self.textEdit.toPlainText()
         if answer == self.response:
             QtWidgets.QMessageBox.information(self, 'Mesage', 'Excellent!')
-        else:
-            self.textEdit.clear()
+        # else:
+        elif answer:
+            # self.textEdit.clear()
             dialog = DiffWindow(self.response,
                                 self.textEdit.toPlainText())
+            self.textEdit.clear()
             dialog.exec_()
             # QtWidgets.QMessageBox.information(self, 'Mesage', "You're wrong!")
             # for i in range(len(self.response)-1):
@@ -141,6 +129,8 @@ class CheckWindow(QtWidgets.QDialog):
             #         QtWidgets.QMessageBox.information(
             #             self, 'Mesage', self.response[i])
             #         break
+        else:
+            QtWidgets.QMessageBox.information(self, 'Mesage', 'Print something, please!')
 
     def btnClosed(self):
         self.close()

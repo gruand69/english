@@ -6,36 +6,26 @@ from PyQt5.QtMultimedia import QMediaPlayer, QMediaContent
 from check_phrase import CheckWindow
 
 
-class MyWindow(QtWidgets.QWidget):
+class MyWindow(QtWidgets.QDialog):
     def __init__(self, lst, parent=None):
         self.lst = lst
         self.i = 0
-        self.mp = QMediaPlayer()
         QtWidgets.QWidget.__init__(self, parent)
 
-        self.labelRus = QtWidgets.QLabel(self.lst[self.i]['question'])
-        # self.labelRus.size()
-        self.labelRus.setWordWrap(True)
-        self.labelRus.setAlignment(
+        self.labelQst = QtWidgets.QLabel(self.lst[self.i]['question'])
+        self.labelQst.setWordWrap(True)
+        self.labelQst.setAlignment(
             QtCore.Qt.AlignLeft | QtCore.Qt.AlignVCenter)
-        self.labelRus.setFont(QFont('Times', 14))
-        self.labelRus.setStyleSheet(
+        self.labelQst.setFont(QFont('Times', 14))
+        self.labelQst.setStyleSheet(
             "border: 1px dashed black; border-radius: 10px;")
 
-        self.labelEng = QtWidgets.QLabel(self.lst[self.i]['response'])
-        # self.labelEng.size()
-        self.labelEng.setWordWrap(True)
-        self.labelEng.setAlignment(
-            QtCore.Qt.AlignLeft | QtCore.Qt.AlignVCenter)
-        self.labelEng.setFont(QFont('Times', 14))
-        self.labelEng.setStyleSheet(
-            "border: 1px dashed black; border-radius: 10px;")
 
-        self.btnBack = QtWidgets.QPushButton("<< &Back")
-        self.btnForw = QtWidgets.QPushButton("&Forward >>")
-        self.btnCheck = QtWidgets.QPushButton("&Prase")
-        self.btnAudio = QtWidgets.QPushButton("&Audio")
-        self.btnQuit = QtWidgets.QPushButton("&Close the window")
+        # self.btnBack = QtWidgets.QPushButton("<< &Back")
+        # self.btnForw = QtWidgets.QPushButton("&Forward >>")
+        # self.btnCheck = QtWidgets.QPushButton("&Prase")
+        # self.btnAudio = QtWidgets.QPushButton("&Audio")
+        # self.btnQuit = QtWidgets.QPushButton("&Close the window")
 
         self.vboxLabel = QtWidgets.QVBoxLayout()
         self.vboxLabel.addWidget(self.labelRus)
@@ -98,7 +88,7 @@ class MyWindow(QtWidgets.QWidget):
 
 if __name__ == "__main__":
     dirname = os.path.dirname(__file__)
-    with open(os.path.join(dirname, 'json/dialog1.json'), encoding='utf-8') as f:
+    with open(os.path.join(dirname, 'json/ex1.json'), encoding='utf-8') as f:
         data = json.load(f)
     # print(data['test'][1])
 
