@@ -4,6 +4,27 @@
       "question": "Is Larry coming tomorrow?", 
       "response": ["Yes, he does."," No, he doesn’t", "Yes, he is.", "No, he won’t"],
       "correct": 3
+    },
+    { 
+      "question": "Do you like chocolate ice cream?", 
+      "response": ["No, I’m not.", "No, I don’t.", "Yes, I am.", "Yes, she does."],
+      "correct": 2
+    },
+    { 
+      "question": "Are we leaving at six?", 
+      "response": ["Yes, they are.", "Yes, they do.", "Yes, we are.", "No, we don’t."],
+      "correct": 3
+    },
+    { 
+      "question": "Is she a lawyer?", 
+      "response": ["No, she doesn’t.", "Yes, he is.", "No, he doesn’t.", "Yes, she is."],
+      "correct": 4
+    },
+    { 
+      "question": "Are they here yet?", 
+      "response": ["No, they’re not.", "Yes, they’re.", "No, they do not.", "Yes, they do."],
+      "correct": 1
     }
+     
   ] 
 }
