@@ -1,0 +1,25 @@
+{
+    "test": [ 
+    { 
+      "question": "Do you work twenty-four-seven?", 
+      "response": "Yes, I do. No, I don't."
+    },
+    { 
+      "question": "Are you from New York?", 
+      "response": "Yes, I am. No, I'm not."
+    },
+    { 
+      "question": "Do your parents live in Los Angeles?", 
+      "response": "Yes, they do. No, they don't."
+    },
+    { 
+      "question": "Are you a student?", 
+      "response": "Yes, I am. No, I'm not."
+    },
+    { 
+      "question": "Is your best friend(male) studying English?", 
+      "response": "Yes, he is. No, he isn't."
+    }
+     
+  ] 
+}

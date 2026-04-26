@@ -6,7 +6,7 @@ from PyQt5.QtMultimedia import QMediaPlayer, QMediaContent
 from check_phrase import CheckWindow
 
 
-class MyWindow(QtWidgets.QWidget):
+class MyWindow(QtWidgets.QDialog):
     def __init__(self, lst, parent=None):
         self.lst = lst
         self.i = 0
@@ -71,7 +71,7 @@ class MyWindow(QtWidgets.QWidget):
         dirname = os.path.dirname(__file__)
         mc = QMediaContent(QtCore.QUrl.fromLocalFile(
             os.path.join(os.path.join(dirname,
-                                      f'media\dialog1\{self.i+1}.mp3'))))
+                                      f'../media/dialog1/{self.i+1}.mp3'))))
         self.mp.setMedia(mc)
         self.mp.stop()
         self.mp.setVolume(50)
@@ -98,7 +98,7 @@ class MyWindow(QtWidgets.QWidget):
 
 if __name__ == "__main__":
     dirname = os.path.dirname(__file__)
-    with open(os.path.join(dirname, 'json/dialog1.json'), encoding='utf-8') as f:
+    with open(os.path.join(dirname, '../json/dialog1.json'), encoding='utf-8') as f:
         data = json.load(f)
     # print(data['test'][1])
 

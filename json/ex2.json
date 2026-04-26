@@ -1,0 +1,33 @@
+{
+    "test":
+    { 
+      "question": ["Thank you!",
+      "I just got in from Chicago.",
+      "Are you a doctor?",
+      "Tell me about myself.",
+      "I'm a real party animal.",
+      "We're in good shape financially.",
+      "You should go to college.",
+      "You're a doll.",
+      "Is this your doll?",
+      "What does he do?"], 
+      "response": ["As a matter of fact, no.",
+      "Awesome.",
+      "Glad I could help you.",
+      "He's a cook.",
+      "I am, actually.",
+      "I hope I get in.",
+      "I'm a college student from Ohio.",
+      "No, problem.",
+      "No, I'm not.",
+      "Then you can show us a good time.",
+      "Welcome.",
+      "Yeah, right!",
+      "Yes, it is.",
+      "You're welcome."
+    ],
+      "correct": ["chn", "bk", "aegil",
+      "g", "bjk", "bl", "fl", "chn",
+       "am", "d"]
+    }     
+}

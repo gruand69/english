@@ -5,7 +5,7 @@ from PyQt5 import QtCore, QtWidgets
 from PyQt5.QtGui import QFont
 
 
-class MyWindow(QtWidgets.QDialog):
+class Ex1(QtWidgets.QDialog):
     def __init__(self, lst, parent=None):
         self.lst = lst
         self.i = 0
@@ -104,12 +104,12 @@ class MyWindow(QtWidgets.QDialog):
 
 if __name__ == "__main__":
     dirname = os.path.dirname(__file__)
-    with open(os.path.join(dirname, 'json/ex1.json'), encoding='utf-8') as f:
+    with open(os.path.join(dirname, '../json/ex1.json'), encoding='utf-8') as f:
         data = json.load(f)
 
     import sys
     app = QtWidgets.QApplication(sys.argv)
-    window = MyWindow(data['test'])
+    window = Ex1(data['test'])
     window.setWindowTitle("Ex1")
     window.show()
     sys.exit(app.exec_())
