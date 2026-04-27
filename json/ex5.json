@@ -1,0 +1,46 @@
+{
+    "test":
+    { 
+      "question": ["a party animal",
+      "extraordinaire",
+      "awesome",
+      "a mix",
+      "you're welcome",
+      "nonstop",
+      "hopefully",
+      "in shape",
+      "a couple of",
+      "a good guy",
+      "any time",
+      "the local scene",
+      "look forward to",
+      "have in store for",
+      "show up",
+      "get in",
+      "can't wait"], 
+      "response": [
+      "twenty-four-seven",
+      "a combination",
+      "an understanding male",
+      "arrive",
+      "attend",
+      "be accepted",
+      "current events here",
+      "fantastic",
+      "glad to help you",
+      "have plans for someone",
+      "if we are lucky",
+      "no problem",
+      "physically fit",
+      "round-the-clok",
+      "someone who likes to have fun",
+      "two",
+      "expert",
+      "want to"
+    ],
+      "correct": ["o", "q", "h", "b",
+      "il", "an","k", "m", "p", "c", "il",
+      "g", "r", "j", "de",
+      "df", "r"]
+    }
+}

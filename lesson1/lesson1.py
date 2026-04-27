@@ -8,6 +8,7 @@ from dialog import MyWindow
 from ex1 import Ex1
 from ex2 import Ex2
 from ex3 import Ex3
+from ex4 import Ex4
 
 i = 1
 max_ex = 10
@@ -63,7 +64,11 @@ class MyLesson(QtWidgets.QDialog):
             with open(os.path.join(
                  dirname, '../json/ex2.json'), encoding='utf-8') as f:
                 data = json.load(f)
-            window = Ex2(data['test'])
+            sign = ("Match each remark in the first column with an " +
+                    'appropriate response from the second column. ' +
+                    'Note: Some remarks have more than one appropriate ' +
+                    'response.')
+            window = Ex2(data['test'], sign)
             window.setWindowTitle("Ex2")
             window.exec_()
         elif n == 3:
@@ -73,6 +78,25 @@ class MyLesson(QtWidgets.QDialog):
                 data = json.load(f)
             window = Ex3(data['test'])
             window.setWindowTitle("Ex3")
+            window.exec_()
+        elif n == 4:
+            with open(
+                 os.path.join(
+                     dirname, '../json/ex4.json'), encoding='utf-8') as f:
+                data = json.load(f)
+            window = Ex4(data['test'])
+            window.setWindowTitle("Ex4")
+            window.exec_()
+        elif n == 5:
+            with open(os.path.join(
+                 dirname, '../json/ex5.json'), encoding='utf-8') as f:
+                data = json.load(f)
+            sign = ('Match the words or expressions in the first column ' +
+                    'with words or expressions in the second column ' +
+                    'that have a similar meaning. Note: There may be ' +
+                    'more than one match for each expression.')
+            window = Ex2(data['test'], sign)
+            window.setWindowTitle("Ex2")
             window.exec_()
         else:
             pass
