@@ -1,0 +1,47 @@
+{
+    "test": [ 
+    { 
+      "question": " Are you Sam's brother?", 
+      "response": ["No, I don't.",
+"That’s correct.",
+"I can assure you.",
+"As a matter of fact."
+],
+      "correct": 2
+    },
+    { 
+      "question": " I'm the president's brother.", 
+      "response": ["Actually!",
+      "You’re a doll!",
+      "Yeah, right!",
+      "You’re welcome."],
+      "correct": 3
+    },
+    { 
+      "question": "We're leaving at six tomorrow morning.", 
+      "response": ["Awesome.",
+        "I'm in shape.",
+        "Any time.",
+        "No, I'm not"],
+      "correct": 1
+    },
+    { 
+      "question": "I work all the time.", 
+      "response": ["Yes, you're a party animal.",
+        "Yes, you got in.",
+        "Yes, you have just arrived.",
+        "Yes, you're busy twenty-four-seven."],
+      "correct": 4
+    },
+    { 
+      "question": "Are you coming to my party?", 
+      "response": ["I'm looking forward to it.",
+"It's a mix.",
+"I'm in shape.",
+"I can assure you that",
+"Yes, they do."],
+      "correct": 1
+    }
+     
+  ] 
+}

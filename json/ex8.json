@@ -1,0 +1,34 @@
+{
+    "test": [
+    {
+      "begin": "I can't wait to", 
+      "middle": "(see)",
+      "end": "you next week.",
+      "correct": "see"
+    },
+    { 
+      "begin": "We are looking forward to", 
+      "middle": "(see)",
+      "end": "you next week.",
+      "correct": "seeing"
+    },
+    { 
+      "begin": "Are you looking forward to", 
+      "middle": "(go)",
+      "end": "on your vacation?",
+      "correct": "going"
+    },
+    { 
+      "begin": "What are you loking forward to ", 
+      "middle": "(do)",
+      "end": "there?",
+      "correct": "doing"
+    },
+    { 
+      "begin": "I can't wait to", 
+      "middle": "(hear)",
+      "end": "all about it.",
+      "correct": "hear"
+    }
+  ] 
+}

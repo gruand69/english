@@ -9,6 +9,8 @@ from ex1 import Ex1
 from ex2 import Ex2
 from ex3 import Ex3
 from ex4 import Ex4
+from ex7 import Ex7
+from ex8 import Ex8
 
 i = 1
 max_ex = 10
@@ -57,7 +59,8 @@ class MyLesson(QtWidgets.QDialog):
             with open(os.path.join(
                  dirname, '../json/ex1.json'), encoding='utf-8') as f:
                 data = json.load(f)
-            window = Ex1(data['test'])
+            sign = ("Choose the most appropriate short answer for each question.")
+            window = Ex1(data['test'], sign)
             window.setWindowTitle("Ex1")
             window.exec_()
         elif n == 2:
@@ -97,6 +100,28 @@ class MyLesson(QtWidgets.QDialog):
                     'more than one match for each expression.')
             window = Ex2(data['test'], sign)
             window.setWindowTitle("Ex2")
+            window.exec_()
+        if n == 6:
+            with open(os.path.join(
+                 dirname, '../json/ex6.json'), encoding='utf-8') as f:
+                data = json.load(f)
+            sign = ("Circle the most appropriate response to each remark.")
+            window = Ex1(data['test'], sign)
+            window.setWindowTitle("Ex1")
+            window.exec_()
+        elif n == 7:
+            with open(os.path.join(
+                 dirname, '../json/ex7.json'), encoding='utf-8') as f:
+                data = json.load(f)
+            window = Ex7(data['test'])
+            window.setWindowTitle("Ex7")
+            window.exec_()
+        elif n == 8:
+            with open(os.path.join(
+                 dirname, '../json/ex8.json'), encoding='utf-8') as f:
+                data = json.load(f)
+            window = Ex8(data['test'])
+            window.setWindowTitle("Ex8")
             window.exec_()
         else:
             pass

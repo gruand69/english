@@ -4,15 +4,17 @@ import json
 from PyQt5 import QtCore, QtWidgets
 from PyQt5.QtGui import QFont
 
+sign = ('Choose the most appropriate short answer for each question.')
+
 
 class Ex1(QtWidgets.QDialog):
-    def __init__(self, lst, parent=None):
+    def __init__(self, lst, sign, parent=None):
         self.lst = lst
         self.i = 0
+        self.sign = sign
         QtWidgets.QWidget.__init__(self, parent)
 
-        self.labelTask = QtWidgets.QLabel(
-            'Choose the most appropriate short answer for each question.')
+        self.labelTask = QtWidgets.QLabel(self.sign)
         self.labelTask.setWordWrap(True)
         self.labelTask.setAlignment(
             QtCore.Qt.AlignLeft | QtCore.Qt.AlignVCenter)
@@ -109,7 +111,7 @@ if __name__ == "__main__":
 
     import sys
     app = QtWidgets.QApplication(sys.argv)
-    window = Ex1(data['test'])
+    window = Ex1(data['test'], sign)
     window.setWindowTitle("Ex1")
     window.show()
     sys.exit(app.exec_())

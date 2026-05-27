@@ -1,0 +1,30 @@
+{
+    "test": [ 
+    { 
+      "title": "<b>I'm Todd (Jones)</b>", 
+      "inform": "Simply using <b>I'm</b> and then saying your name is one way to introduce yourself. You could also say, for example, <b>My name's</b> Todd (Johnes). It is customary to offer your right hand in a handshake to the other person. In very informal situation, you could just say Hi, <b>I'm</b> Todd, wth no handshake.",
+      "example": "To introduce one or more people other then youself, say: <b>This is</b> (my wife) <b>Mary</b>. And <b>this is Susan, Bob and Joe.</b>. To introduce more than one person and also tell how you know them, say: <b>These are</b>  my friends, <b>Susan and Bob</b>. And <b>this is Jim</b>, my coworker. All of the people introduced would then shake hands. You could also say: <b>I want you to meet</b> my friends, <b>Susan and Bob.</b>"
+    },
+    { 
+      "title": "<b>Glad/happy to meet you</b>", 
+      "inform": "When you have been introduced to someone, it's customary to say <b>(I'm) glad/happy to meet you</b> or <b>It's nice to meet you.</b>  To reply is <b>I'm happy to meet you.</b> or <b>I'm happy to meet you, too.</b>",
+      "example": ""
+    },
+    { 
+      "title": "<b>Right?</b>", 
+      "inform": "<b)Right?</b> is informal way to ask for confirmation that what you have just said is True The answer can be <b>That's right!</b>",
+      "example": "This train goes to Washington, right? That's right. You're from Panama, right? That's right, I am"
+    },
+    { 
+      "title": "<b>Correct!</b>", 
+      "inform": "This is an informal answer to a question that asks for confirmation. You're Matt, aren't you? <b>Correct!</b> This is an Economics 101, right? <b>Correct!</b> If you want to tell your questioner that he or she is not correct, you can politely say this with, for example: No, that's not <b>right.</b> No, that's not <b>correct.</b> No, I'm not Matt, I'm Jim. No, sheisn't my sister. She's my cousin.",
+      "example": "To sarcastically indicate that something is not correct, <b>Yeah, right!</b> is used. Dylan, I heard you just won the lottery jackpot! <b>Yeah, right!</b> Where did you hear that nonsense?"
+    },
+    { 
+      "title": "I'm Todd (Jones)", 
+      "inform": "Simply using <b>I'm</b> and then saying your name is one way to introduce yourself. You could also say, for example, <b>My name's</b> Todd (Johnes). It is customary to offer your right hand in a handshake to the other person. In very informal situation, you could just say Hi, <b>I'm</b> Todd, wth no handshake.",
+      "example": "To introduce one or more people other then youself, say: <b>This is</b> (my wife) <b>Mary</b>. And <b>this is Susan, Bob and Joe.</b>. To introduce more than one person and also tell how you know them, say: <b>These are</b>  my friends, <b>Susan and Bob</b>. And <b>this is Jim</b>, my coworker. All of the people introduced would then shake hands. You could also say: <b>I want you to meet</b> my friends, <b>Susan and Bob.</b>"
+    }
+     
+  ] 
+}
