@@ -1,0 +1,72 @@
+
+{
+    "test": [ 
+    { 
+      "question": "Доброе утро, сэр. Ваш паспорт и карточку прибывающего, пожалуйста", 
+      "response": "Good morning, sir. Your passport and landing card, please." 
+    }, 
+    { 
+      "question": "Доброе утро. Вот, пожалуйста.", 
+      "response": "Good morning. Here you are." 
+    },
+    { 
+      "question": "Как долго Вы планируете находиться в Великобритании?", 
+      "response": "How long do you plan to stay in the UK?"
+    },
+    { 
+      "question": "Неделю.", 
+      "response": "For a week." 
+    },
+    { 
+      "question": "Какова цель Вашего визита?", 
+      "response": "What's the purpose of your visit?" 
+    },
+    { 
+      "question": "Бизнес.", 
+      "response": "Business." 
+    },
+    { 
+      "question": "Какой именно бизнес?", 
+      "response": "What sort of business?" 
+    },
+    { 
+      "question": "Я здесь для того, чтобы принять участие в туристической выставке.", 
+      "response": "I'm here to participate in a travel exhibition."
+    },
+    { "question": "Где пройдет выставка?",
+      "response": "Where will the exhibition take place?" 
+    },
+    { 
+      "question": "В Лондоне.", 
+      "response": "In London." 
+    },
+    { 
+      "question": "У Вас есть приглашение или карточка участника?", 
+      "response": "Have you got an invitation or participant's card?" 
+    },
+    { 
+      "question": "Да, вот приглашение.", 
+      "response": "Yes, here's the invitation." 
+    },
+    { 
+      "question": "Где Вы остановитесь в Лондоне?", 
+      "response": "Where are you staying in London?"
+    },
+    { 
+      "question": "В отеле Краун.", 
+      "response": "The Crown hotel." 
+    },
+    { 
+      "question": "У Вас забронирован номер?", 
+      "response":  "Do you have a reservation?" 
+    },
+    { 
+      "question":  "Да, вот подтверждение отеля и квитанция об оплате.", 
+      "response": " Yes, here's the hotel confirmation and payment receipt." 
+    },
+    { 
+      "question": "Большое спасибо, желаю приятно провести время в Лондоне.", 
+      "response": "Thank you very much, have a nice time in London. " 
+    }
+  ] 
+}

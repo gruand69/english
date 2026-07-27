@@ -1,0 +1,57 @@
+
+{
+    "test": [ 
+    { 
+      "question": "Привет - ты должно быть Сара. Судя по фотографии. Я Лорен. Наконец-то мы встретились! Итак, мы будем жить в одной комнате в этом семестре!", 
+      "response": "Hi - you must be Sarah. I can tell from your picture. I'm Lauren. Finally we meet! So we're going to be roomies this semester!" 
+    }, 
+    { 
+      "question": "Да, я тоже узнала тебя по фотографии! Я так рада познакомиться вживую, и судя по футболке, ты любишь бейсбол. Я тоже большая фанатка!", 
+      "response": "Yes, I recognize you from your photo, too! I'm so glad to meet you in person - and I see from your T-shirt that you like baseball. I'm a big fan, too!" 
+    },
+    { 
+      "question": "Вообще, футболка - это прощальный подарок моего брата, который играет в бейсбол. Посмотри на спину, там фотография всех игроков его команды. В действительности они выиграли городской чемпионат этим летом.", 
+      "response": "Well, the T-shirt was a going-away present from my brother, who's a baseball player. Look on the back - it has a photo of all the players on his team. They actually won the city championship this summer." 
+    },
+    { 
+      "question": "Это замечательно. Можно сказать, я не очень спортивная, но очень люблю смотреть бейсбол, даже небольшие соревнования. Можно сказать, что я профессинальный болельщик. А ты, ты занимаешься спортом?", 
+      "response": "That's awesome. I tell you, I'm not very athletic, but I love to watch baseball, even if it's a Little League game. You could say I'm a professional spectator. What about you, do you play a sport?" 
+    },
+    { 
+      "question": "Да, я играю в теннис. Фактически, у меня есть разряд, и я собираюсь выступать за команду университета. А сейчас расскажи о себе, чем еще ты любишь заниматься?", 
+      "response": "Yes, I play tennis. As a matter of fact, I have a scholarship, and I'm going to play for the university. Now tell me, what else do you like to do?" 
+    },
+    { 
+      "question": "Ну, больше всего я люблю танцевать. Я обучаюсь классическому баллету, но я также люблю танцевать и популярную музыку.", 
+      "response": "Well - what I like to do best is dance. I'm studying classical ballet, but I also like to dance to popular music." 
+    },
+    { 
+      "response": "Cool. We have a lot in common. I like to dance, too. Think you'll be up for checking out the local clubs this weekend.", 
+      "question": "Чудесно. У нас много общего. Я тоже люблю танцевать. Думаю, ты поддержишь проверку местных клубов в выходные." 
+    },
+    { 
+      "question": "О, да. И рестаранов тоже. Кстати к слову, ты не голодна? Я бы хотела перекусить пока не слишком поздно. Я очень голодная!", 
+      "response": "Oh, yeah. And the restaurants, too. Speaking of which - are you hungry? I'd love to grab a bite before it gets too late. I'm starving!" 
+    },
+    { 
+      "question": "Издеваешься? Я всегда за то, чтобы прогуляться! Как насчет пройтись по улице? Я бы съела хороший гамбургер.", 
+      "response": "Are you kidding me? I'm always up for going out! How about trying the place up the street? I'm kind of hungry for a good hamburger." 
+    },
+    { 
+      "question": "Лорен, как тебе наша комната?", 
+      "response": "Lauren, what do you think of our room?" 
+    },
+    { 
+      "question": "Честно говоря, Я не люблю эти темные стены. Они выглядять депрессивно. Я предпочитаю светлые тона. Плюс я хотела бы поменять ковер и покрывала. Тебе они нравятся?", 
+      "response": "To be honest with you, I really can't stand that dark color on the walls. It's, like, really depressing. I prefer light colors. Plus, I'd like to change the rug and the bedspreads. Do you like them?" 
+    },
+        { 
+      "question": "Нет, я с тобой согласна. Они просто ужасные. Рщ если добавить немного красок и сделать небольшие изменения, мы сделаем эту комнату уютной и удобной. Любой захочет здесь позависать.", 
+      "response": "No, I agree with you. They're horrible. With a couple of coats of paint and a few small changes, we'll make this room comfortable and cozy. Everybody will want to hang out here." 
+    },
+    {
+      "question": "Подруга, теперь я успокоилась! Думаю, мы хорошо поладим. Я хочу прямо сейчас позвонить своей маме и сказать ей, как мне повезло с соседкой по комнате.", 
+      "response": "Man, I'm so relieved! I think we're really going to get along. I'm going to call my mom right now and tell her how cool my new roomie is." 
+    }
+  ] 
+}

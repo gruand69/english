@@ -1,0 +1,41 @@
+
+{
+    "test": [ 
+    { 
+      "question": "Такси, сэр?", 
+      "response": "Taxi, sir?" 
+    },
+    { 
+      "question": "Отель Краун, пожалуйста.", 
+      "response": "The Crown hotel, please." 
+    },
+    { 
+      "question": "Извините, сэр, в Лондоне несколько отелей Краун.", 
+      "response": "Excuse me, sir, there are several Crown hotels in London." 
+    },
+    { 
+      "question": "Вот адрес.", 
+      "response": "Here's the address."
+    },
+    { 
+      "question": "Я понял, сэр.", 
+      "response":  "I've got it, sir." 
+    },
+    { 
+      "question": "Можно закурить?", 
+      "response": "Can I smoke?" 
+    },
+    { 
+      "question": "Да, пожалуйста. Мы прибыли, сэр. С Вас 29.50.", 
+      "response": "Please, do. Here we are, sir. It's 29.50." 
+    },
+    { 
+      "question": "Пожалуйста, 33 фунта. Сдачи не надо.", 
+      "response": "Here you are, 33 pounds. Keep the change." 
+    },
+    { 
+      "question": "Большое спасибо.", 
+      "response": "Thanks a lot." 
+    }
+  ] 
+}

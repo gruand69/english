@@ -1,0 +1,64 @@
+{
+    "test": [
+    {
+      "begin": "It's important that you", 
+      "end": " the truth.",
+      "correct": "tell"
+    },
+    { 
+      "begin": "Her children", 
+      "end": "Spanish, Italian, and English.",
+      "correct": "speak"
+    },
+    { 
+      "begin": "Did you",
+      "end": "him my secret?",
+      "correct": "tell"
+    },
+    { 
+      "begin": "What did he", 
+      "end": "to you?",
+      "correct": "say"
+    },
+    { 
+      "begin": "What did he", 
+      "end": "you?",
+      "correct": "tell"
+    },
+        { 
+      "begin": "Can you", 
+      "end": "we've been fighting?",
+      "correct": "tell"
+    },
+        { 
+      "begin": "", 
+      "end": "what you think.",
+      "correct": "Say"
+    },
+            { 
+      "begin": " Please don't", 
+      "end": " that about us.",
+      "correct": "say"
+    },
+        { 
+      "begin": "Please don't", 
+      "end": "my parents where we went.",
+      "correct": "tell"
+    },
+            { 
+      "begin": " Don't", 
+      "end": "me you missed the bus again!",
+      "correct": "tell"
+    },
+        { 
+      "begin": "I", 
+      "end": "you, that movie is great!",
+      "correct": "tell"
+    },
+     { 
+      "begin": " Mom called? What did she", 
+      "end": "?",
+      "correct": "say"
+    }
+  ] 
+}

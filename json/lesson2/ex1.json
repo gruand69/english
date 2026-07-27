@@ -1,0 +1,37 @@
+{
+    "test": [ 
+    { 
+      "qst": "Would you like to have dinner with me/us?",
+      "answer": "I'd love to have dinner with you."
+    },
+    { 
+        "qst": "Do you like fast-food restaurants?",
+      "answer": "No, I don't like fast-food restaurants."
+    },
+    { 
+        "qst": "Where would you like to go on your vacation?",
+      "answer": "We'd like to go to the mountains."
+    },
+    { "qst": "What do you like to do on weekends/in the winter/etc.?",
+      "answer": "I like to go skiing then."
+    },
+    { "qst": "Do you feel like _ing?",
+      "answer": "No, I'm not in the mood for doing that today."
+    },
+    { "qst": "What kind of fruit do you like?",
+      "answer": "Cherries are my favorite."
+    },
+    { "qst": "What does he like to do?",
+      "answer": "I don't know what he likes to do."
+    },
+    { "qst": " Does she like chocolate ice cream?",
+      "answer": "No. She prefers vanilla."
+    },
+    { "qst": "Do you like _?",
+      "answer": "Yes, I love it!"
+    },
+    { "qst": "Would you like to _?",
+      "answer": "Yes, I'd love to!"
+    }
+  ] 
+}

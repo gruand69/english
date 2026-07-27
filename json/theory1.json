@@ -21,10 +21,55 @@
       "example": "To sarcastically indicate that something is not correct, <b>Yeah, right!</b> is used. Dylan, I heard you just won the lottery jackpot! <b>Yeah, right!</b> Where did you hear that nonsense?"
     },
     { 
-      "title": "I'm Todd (Jones)", 
-      "inform": "Simply using <b>I'm</b> and then saying your name is one way to introduce yourself. You could also say, for example, <b>My name's</b> Todd (Johnes). It is customary to offer your right hand in a handshake to the other person. In very informal situation, you could just say Hi, <b>I'm</b> Todd, wth no handshake.",
-      "example": "To introduce one or more people other then youself, say: <b>This is</b> (my wife) <b>Mary</b>. And <b>this is Susan, Bob and Joe.</b>. To introduce more than one person and also tell how you know them, say: <b>These are</b>  my friends, <b>Susan and Bob</b>. And <b>this is Jim</b>, my coworker. All of the people introduced would then shake hands. You could also say: <b>I want you to meet</b> my friends, <b>Susan and Bob.</b>"
+      "title": "<b>Am, do, etc.</b>", 
+      "inform": "When a yes-or no question using the verb to be is asked, the answer can be made emphatic by following it with tag, in which if answer is yes, the verb is said a little louder than the other words. Affirmative tag answers are not contracted. Are you unhappy? Yes, I am. Is he sick? Yes, he is. Are we winning? Yes, we are. Are they leaving? Yes, they are. When the answer is no, there are two ways to answer with tag. The underlined words are the ones said a little louder. Negative tag answers are usually contracted. The full form makes them more emphatic. Are you unhappy? No, I'm not./No, I am not. Is he sick? No, he's not./No, he is not. Are we winning? No, we're not./No, we aren't./No, we are not. Are they leaving? No, they're not./No, they aren'y./ No, they are not.",      
+      "example": "When an information question using any ver other then to be is asked, the answer can be made emphatic by following it with tag, in which the verbs is said a little louder then the other words. Do you eat meat? Yes, I do./ No, I don't./No, I do not. Does he like school? Yes, he does./ No, he doesn't./ No he does not. Do we wait in line? Yes, we do./ No, we don't./ No, we do not. Do they live here? Yes, they do. No, they don't./ No, they, do not."
+    },
+        { 
+      "title": "<b>Thanks so much.</b>", 
+      "inform": "Thanks so much is a common way of expressing appreciation. Other ways to say this are Thank you very much / Thanks a lot / I really appreciate this / You're a doll(very informal) / You're a sweetheart(very informal). To reply to any of these could be You're welcome / No problem / I'm glad I could help you / Glad to help / Any time.",      
+      "example": "Thanks so much for fixing my tire. I really appreciate it. No problem. Thank you very much for helping us. You're welcome. Any time."
+    },
+            { 
+      "title": "<b>Just.</b>", 
+      "inform": "This use of just indicates that something happened only a short time before. It can be used with the past tense or with the present perfect tense.",
+      "example": "For example: Past tense I just arrived. They just finished. We just ate. He just called. Present perfect tense. I have just arrived. They have just finished. We have just eaten. He has just called."
+    },
+    { 
+      "title": "<b>As a matter of fact.</b>", 
+      "inform": "<b>As a matter of fact </b>is a common expression that has a number of different meanings. In our example conversation it introduces a confirmation of what was previously said. It can go before the main clause or after the verb. I heard you were looking for a job. As a matter of fact, I am. Your friend is very good-looking; is he single? He is, as a matter of fact.",
+      "example": "You can express the same meaning with actually, but put it after a verb. I heard you were looking for a job? I am, actually. Your friend is beautiful, but I'll bet she's married. She is, actually."
+    },
+    { 
+      "title": "<b>To get in.</b>", 
+      "inform": "To get in means to arrive and is usually used in the past tense. What time did you get in? They got in late last night. Another way to say arrive, when it refers to the future, is to get there. I hope we get there on time. She will get there by six.",
+      "example": "To get in can also mean to be accepted by a school/college/university or other group with limited membership. He applied to that college and really hopes to get in. She didn't get in her first choice of sororities, but she got in another one, and she's happy."
+    },
+        { 
+      "title": "<b>I can assure you that.../you can be sure(that)...</b>", 
+      "inform": "These are common ways of saying that you believe something to be true, hoping to win the confidence of the person you are talking to.",
+      "example": "I can assure you that I will work hard. You can be sure that something interesting will happen. Here is another way to express that you believe something to be true: I promise you that we won't leave until the work is done."
+    },
+        { 
+      "title": "<b>Party animal</b>",
+      "inform": "<b>Party animal</b> is an informal expression used to characterize someone who spends a lot of time with friends or acquaintances for entertainment - either at home or in public places.",
+      "example": "My friend Eric will take you downtown on Saturday night; he's a real party animal, so you'll meet lots of people."
+    },
+        { 
+      "title": "<b>Extraordinaire</b>",
+      "inform": "<b>Extraordinaire</b> is a word borrowed from French, pronounced in English 'ekstra or d-NAYRE'. It is used to exaggerate the meaning of previous word." ,
+      "example": "I'd like you to meet Marc - he's our pastry chef extraordinaire. You have to try his cheesecake!"
+    },
+    { 
+      "title": "<b>What do you do?</b>",
+      "inform": "When the answer refers to someone who has a special title or position (i.e,, is the only one in that position), use the instead of a. What does he do? He's the president of ABC Enterprises. What do you do? I'm the school secretary (the only one)." ,
+      "example": "Whe you answer with another verb, you give more specific information about your work. What do you do? I work for a large firm. What does he do? He drives a delivery truck. What does she do? She works at Atlas Bank. What do they do? They teach French at Loyola. When a specific time or place is included in the question, the answer refers to how people spend their time, not just what their jobs are. What do you do on weekends? I relax and hang out with my friends. What does she do at the beach? She surfs, relaxes on the beach and goes to the boardwalk for fun."
+    },
+        { 
+      "title": "<b>Tell me about yourself.</b>",
+      "inform": "<b>Tell me about yourself</b> is a polite way to let someone know that you are interested in learning more about him or her. It is better than asking direct questions, as a person being asked can decide what to tell and what not to tell. For example:" ,
+      "example": "Tell me about yourself. Well, I'm twenty-seven, I have a degree in mathematics, and I've been working at SYZ Company for three years. My parents are both economists, and I have a sister who's a nurse and two younger brothers. They live in Connecticut, where I was born. I'm crazy about football and have season tickets. I listen to reggae, etc. Tell me more about youself. Well, I'm from a small town, and I came here to work."
     }
-     
+
   ] 
 }

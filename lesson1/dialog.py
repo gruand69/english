@@ -97,8 +97,10 @@ class MyWindow(QtWidgets.QDialog):
 
 
 if __name__ == "__main__":
-    dirname = os.path.dirname(__file__)
-    with open(os.path.join(dirname, '../json/dialog1.json'), encoding='utf-8') as f:
+    # dirname = os.path.dirname(__file__)
+    # print(dirname)
+    # print(os.path.join(dirname, '../json/dialog1.json'))
+    with open('C:\Dev\english\json\dialog1.json', encoding='utf-8') as f:
         data = json.load(f)
     # print(data['test'][1])
 

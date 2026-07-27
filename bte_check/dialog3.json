@@ -1,0 +1,56 @@
+
+{
+    "test": [ 
+    { 
+      "question": " Мне идти через зеленый или красный коридор?", 
+      "response": "Should I go through the green or the red channel?" 
+    }, 
+    { 
+      "question": "Если Вам нечего декларировать, идите через зеленый.", 
+      "response": "If you have nothing to declare go through the green channel." 
+    },
+    { 
+      "question": "А что надо декларировать?", 
+      "response": "What do I need to declare?"
+    },
+    { 
+      "question": "Там перед входом на таможню есть список вещей, подлежащих декларированию.", 
+      "response": "There's a list of goods to declare in front of the customs." 
+    },
+    { 
+      "question":  "У меня с собой есть алкоголь.", 
+      "response": "I've got some alcohol with me." 
+    },
+    { 
+      "question": "Какой именно алкоголь и сколько?", 
+      "response": "What alcohol and how much?" 
+    },
+    { 
+      "question": "Одна бутылка виски.", 
+      "response": "One bottle of whisky." 
+    },
+    { 
+      "question": "Это нормально. Вам не надо это декларировать. Что-нибудь еще?", 
+      "response": "That's O.K. You don't need to declare it. Anything else?"
+    },
+    { "question": "Не думаю.",
+      "response": "I don't think so." 
+    },
+    { 
+      "question": "В любом случае, разрешите проверить Ваш багаж. Можете его открыть? ", 
+      "response": "Anyway, let me check your luggage. Can you open it, please?" 
+    },
+    { 
+      "question": "Вот мой чемодан и мой дипломат.", 
+      "response": "Here's my suitcase and my briefcase." 
+    },
+    { 
+      "question": "Хорошо. Давайте я посмотрю. Все в порядке. Проходите.", 
+      "response":  "O.K. Let me have a look. Everything's alright. Go ahead." 
+    },
+    { 
+      "question":  "Спасибо.", 
+      "response": "Thank you."
+    }
+  ] 
+}

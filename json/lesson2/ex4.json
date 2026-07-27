@@ -1,0 +1,37 @@
+{
+    "test":
+    { 
+      "question": ["great",
+      "horrible",
+      "can tell",
+      "eat",
+      "like a lot",
+      "not argue",
+      "not tolerate",
+      "want to",
+      "think of",
+      "love"], 
+      "response": [
+      "amazing",
+      "awesome",
+      "be fan of",
+      "be in the mood for",
+      "be up for",
+      "can't stand",
+      "care about",
+      "cool",
+      "depressing",
+      "disgusting",
+      "fantastic",
+      "feel like",
+      "feel romantic about",
+      "get along with",
+      "grab a bite",
+      "gross",
+      "have an opinion about",
+      "know"
+    ],
+      "correct": ["abhk", "ijp", "r", "o",
+      "cg", "n","f", "del", "q", "cgm"]
+    }
+}

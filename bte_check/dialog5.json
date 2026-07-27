@@ -1,0 +1,50 @@
+
+{
+    "test": [ 
+    { 
+      "question": "Простите, я заказал доставку, но машина не приехала. Как мне добраться до центра?", 
+      "response": "Excuse me, I booked a transfer but it didn't arrive. How can I get to the centre?" 
+    },
+    { 
+      "question": " ы можете взять такси при выходе из терминала. Там стоянка такси.", 
+      "response": "You can take a taxi outside the terminal. There's a taxi rank." 
+    },
+    { 
+      "question": "Спасибо. А можно как-нибудь по-другому?", 
+      "response": "Thank you. Any other ways?" 
+    },
+    { 
+      "question": "Да, здесь есть метро.", 
+      "response": "Yes, there's the underground."
+    },
+    { 
+      "question":  "Мне нужно доехать до метро на автобусе?", 
+      "response": "Do I take a bus to the underground station?" 
+    },
+    { 
+      "question": "Нет, вход в метро в здании терминала.", 
+      "response": "No, the entrance is in the terminal building." 
+    },
+    { 
+      "question": "А можно попасть в город на автобусе или на поезде?", 
+      "response": "Can I get to the town by bus or by train?" 
+    },
+    { 
+      "question": "Да, вы можете доехать на автобусе. Остановка автобуса на улице у выхода.", 
+      "response": "Yes, you can take a bus. The bus stop's outside the exit doors." 
+    },
+    { 
+      "question": "А на поезде?", 
+      "response": "And the train?" 
+    },
+    { 
+      "question": "Да, железнодорожная станция недалеко. Поезд довезет Вас до одного из центральных вокзалов.", 
+      "response": "Yes, there's a railway station quite near. The train will take you to one of the central stations." 
+    },
+    { 
+      "question": " Спасибо, я лучше возьму такси.", 
+      "response": "Thank you, I'd rather take a taxi." 
+    } 
+    
+  ] 
+}

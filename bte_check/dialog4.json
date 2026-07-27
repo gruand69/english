@@ -1,0 +1,37 @@
+
+{
+    "test": [ 
+    { 
+      "question": "Доброе утро, я жду водителя, который должен меня встретить, и не могу его найти.", 
+      "response": "Good morning, I'm waiting for a driver to meet me and I can't find him." 
+    }, 
+    { 
+      "question": "У Вас забронирована доставка?", 
+      "response": "Have you got a transfer booked?" 
+    },
+    { 
+      "question": "Да.", 
+      "response": "Yes."
+    },
+    { 
+      "question": "Какая фирма бронировала Вашу доставку?", 
+      "response": "What company booked your transfer?" 
+    },
+    { 
+      "question": "«Соло Трэвел». Вы не могли бы сделать объявление?", 
+      "response": "Solo Travel. Can you make an announcement? " 
+    },
+    { 
+      "question": "Конечно. Ваше имя, пожалуйста?", 
+      "response": "Certainly. What's your name, please?" 
+    },
+    { 
+      "question": "Джонс, прибыл из Нью-Йорка.", 
+      "response": "Johns, arrived from New York." 
+    },
+    { 
+      "question": "Водитель машины, заказанной «Соло Трэвел», встречающий г-на Джонса из Нью-Йорка, пожалуйста немедленно подойдите к стойке «Информация».", 
+      "response": "Would the driver of the car booked by Solo Travel meeting Mr Johns from New York please come to the Information desk immediately."
+    }
+  ] 
+}

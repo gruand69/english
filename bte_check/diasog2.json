@@ -1,0 +1,57 @@
+
+{
+    "test": [ 
+    { 
+      "question": "Извините, я не могу найти свой багаж.", 
+      "response": "Excuse me, I can't find my luggage." 
+    }, 
+    { 
+      "question": "Какой номер рейса?", 
+      "response": "What was your flight?" 
+    },
+    { 
+      "question": "ВА178 из Нью-Йорка.", 
+      "response": "BA178 from New York."
+    },
+    { 
+      "question":  "Можно Ваш билет?", 
+      "response": "Can I have your ticket please?" 
+    },
+    { 
+      "question": "Вот мой билет и багажная наклейка.", 
+      "response": "Here's my ticket and luggage sticker." 
+    },
+    { 
+      "question": "Подождите минуту, я проверю по компьютеру.", 
+      "response": "Hold on a minute, I'll check on the computer." 
+    },
+    { 
+      "question": "Проблемы?", 
+      "response": "Problems?" 
+    },
+    { 
+      "question": "Да, ваш багаж остался в аэропорту в Нью-Йорке. Его доставят следующим рейсом сегодня днем.", 
+      "response": "Yes, your luggage was left in the airport in New York. It'll be delivered on the next flight later this afternoon." 
+    },
+    { 
+      "question": "Как мне его тогда получить?", 
+      "response": "How can I get it then?"
+    },
+    { 
+      "question": "Вы остановитесь в Лондоне?", 
+      "response": "Are you staying in London? " 
+    },
+    { 
+      "question": "Да, в отеле Краун.", 
+      "response": "Yes, the Crown hotel." 
+    },
+    { 
+      "question": "Я запишу Ваше имя и адрес отеля и его доставят прямо Вам в отель.", 
+      "response": "I'll take your name and the hotel address and it'll be sent to you direct to the hotel." 
+    },
+    { 
+      "question": "Спасибо Вам большое за помощь.", 
+      "response": " Thank you very much for your help."
+    }
+  ] 
+}

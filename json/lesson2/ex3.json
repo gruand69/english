@@ -1,0 +1,37 @@
+{
+    "test": [ 
+    { 
+      "question": "Where are you going?", 
+      "response": "Tell me where you're going."
+    },
+    { 
+      "question": "What are they doing?", 
+      "response": "Tell me what they're doing."
+    },
+    { 
+      "question": "How do you get there?", 
+      "response": "Tell me how you get there."
+    },
+    { 
+      "question": "When do you study?", 
+      "response": "Tell me when you study."
+    },
+    { 
+      "question": "Why is she crying?", 
+      "response": "Tell me why she's crying."
+    },
+    { 
+      "question": "What time do we leave?", 
+      "response": "Tell me what time we leave."
+    },
+
+    { 
+      "question": "Who are you texting?", 
+      "response": "Tell me who you're texting."
+    },
+    { 
+      "question": "How much does it cost?", 
+      "response": "Tell me how much it costs."
+    }
+  ] 
+}
