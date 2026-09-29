@@ -1,0 +1,64 @@
+
+{
+    "test": [ 
+    { 
+      "question": "Добрый день. Ваш паспорт и билет, пожалуйста.", 
+      "response": "Good afternoon. Your ticket and passport, please." 
+    },
+    { 
+      "question": "Вот, пожалуйста. Какой это самолет?", 
+      "response": "Here you are. What aircraft is it?" 
+    },
+    { 
+      "question": "Боинг 777. Вам салон курящий или не курящий?", 
+      "response": "It's a Boeing 777. Smoking or non-smoking?" 
+    },
+    { 
+      "question": "Курящий, пожалуйста.", 
+      "response": "Smoking, please." 
+    },
+    { 
+      "question": "Сколько у Вас мест багажа?", 
+      "response": "How many pieces of luggage do you have?"
+    },
+    { 
+      "question": "Одно. Поставить на весы?", 
+      "response": "One. Shall I put it on the scale?" 
+    },
+    { 
+      "question": "Да, пожалуйста. Можно взглянуть на Вашу ручную кладь?", 
+      "response": "Yes, please. Can I see your hand luggage?" 
+    },
+    { 
+      "question": "Да, это просто дипломат.", 
+      "response": "Yes, it's just a briefcase." 
+    },
+    { 
+      "question": "Мне нужно задать несколько вопросов в целях безопасности. Вы сами паковали Ваш багаж?", 
+      "response": "I need to ask you some security questions. Did you pack your luggage yourself?"
+    },
+    { 
+      "question": "Да.", 
+      "response": "Yes." 
+    },
+    { 
+      "question": "Вы везете какие-либо электрические или электронные приборы?", 
+      "response": "Have you got any electrical or electronic devices?"
+    },
+    { 
+      "question": "Нет.", 
+      "response": "No." 
+    },
+    { 
+      "question": "Кто-либо просил Вас провезти что-либо в Вашем багаже?", 
+      "response": "Has anybody asked you to carry anything in your luggage?" 
+    },{ 
+      "question": "Нет.", 
+      "response": "No." 
+    },
+    { 
+      "question": "Спасибо.", 
+      "response": "Thank you." 
+    }
+  ] 
+}

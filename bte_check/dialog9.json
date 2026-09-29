@@ -1,0 +1,46 @@
+
+{
+    "test": [ 
+    { 
+      "question": "Вес Вашего багажа превышает положенный на 6 килограммов. Вам придется доплатить.", 
+      "response": "Your luggage is 6 kilos over the permitted weight. You'll have to pay extra."
+    },
+    { 
+      "question": "Сколько?", 
+      "response": "How much?"
+    },
+
+    { 
+      "question": "8 фунтов за килограмм.", 
+      "response": "8 pounds per kilo." 
+    },
+    { 
+      "question": "Хорошо. Где мне платить?", 
+      "response": "O.K. Where do I pay it?" 
+    },
+    { 
+      "question": "Я Вам выпишу квитанцию. Оплатите ее в кассе. Она на этом же этаже. Там Вы получите посадочный талон.", 
+      "response": "I'll issue you an invoice. Pay it at the cash desk. It's on the same floor. You'll get your boarding card there." 
+    },
+    { 
+      "question": "Спасибо. Наш рейс вылетает вовремя?", 
+      "response": "Thank you. Is the flight leaving on time?" 
+    },
+    { 
+      "question": "Да, насколько мне известно. Ваш рейс в 16.00, а посадка начнется в 15.40. Желаем приятного полета.", 
+      "response": "Yes, as far as I know. Your flight is at 16.00 and the boarding time's at 15.40. Have a nice flight." 
+    },
+    { 
+      "question": "Большое спасибо. Где зал вылета?",
+      "response": "Thanks a lot. Where's the departure lounge?" 
+    },
+    { 
+      "question": "Поднимитесь по лестнице на второй этаж.", 
+      "response": "Go upstairs to the first floor." 
+    },
+    { 
+      "question": "Большое спасибо.", 
+      "response": "Thank you very much." 
+    }
+  ] 
+}

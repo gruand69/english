@@ -1,0 +1,81 @@
+
+{
+    "test": [ 
+    { 
+      "question": "Нет туалетной бумаги. Принесите, еще один рулон, пожалуйста.", 
+      "response": "The toilet paper has run out. Bring another roll, please."
+    },
+    { 
+      "question": "Нет горячей воды.", 
+      "response": "There's no hot water."
+    },
+  { 
+      "question": "Нет холодной воды.", 
+      "response": "There's no cold water."
+    },
+    { 
+      "question": "Поменяйте постельное белье, пожалуйста.",
+      "response": "Change the bed linen, please."
+    },
+    { 
+      "question": "Замените полотенца, пожалуйста.", 
+      "response": "Change the towels, please."
+    },
+    { 
+      "question": "В номере нет пепельницы. Не могли бы Вы принести?", 
+      "response": "There's no ashtray in my room. Could you bring one?"
+    },
+  { 
+      "question": "В моем номере нет мыла. Можно попросить?", 
+      "response": "There's no soap in my room. Can I ask for some?"
+    },
+    { 
+      "question": "Принесите еще одно одеяло, пожалуйста.",
+      "response": "Bring another blanket, please."
+    },
+    { 
+      "question": "В номере холодно. Вы можете принести обогреватель?", 
+      "response": "It's cold in my room. Can you bring a heater?"
+    },
+    { 
+      "question": "Могу я поменять эту комнату на большую?", 
+      "response": "Can I change this room to a bigger one?"
+    },
+  { 
+      "question": "У меня не работает телефон.", 
+      "response": "My telephone doesn't work."
+    },
+    { 
+      "question": "У меня не работает холодильник.",
+      "response": "My fridge doesn't work."
+    },
+    { 
+      "question": "Не могли бы Вы заполнить мой мини бар?", 
+      "response": "Can you fill up the mini bar for me?"
+    },
+    { 
+      "question": "Я забыла код от мини сейфа.", 
+      "response": "I've forgotten the code for the mini safe."
+    },
+  { 
+      "question": "Я потерял ключ от мини бара.", 
+      "response": "I've lost the mini bar key."
+    },
+    { 
+      "question": "Я не могу открыть дверь в номер.",
+      "response": "I can't open the door to my room."
+    },
+    { 
+      "question": "Могу я попросить адаптер для континентальной вилки?", 
+      "response": "Can I ask for an adapter for a continental plug?"
+    },
+    { 
+      "question": "Сломана ручка двери.", 
+      "response": "The door handle's broken."
+    },
+  { 
+      "question": "Сломана розетка.", 
+      "response": "The socket's broken."
+    }
+      ] 
+}

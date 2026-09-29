@@ -11,11 +11,11 @@
     },
     { 
       "question": "У меня не много времени, чувак, но в основном ты с ним ладишь?", 
-      "response": "I don't have much time, dude — but basically — do you get along with him?" 
+      "response": "I don't have much time, dude - but basically - do you get along with him?" 
     },
     { 
       "question": "Ну, вообще, да - но это только потому, что мы едва ли видимся. Он либо играет в игры, либо спит целый день. Иногда он покидает свою комнату, чтобы сходить на занятия и вернуться. Потом он втает в полночь и учится всю ночь.", 
-      "response": "Well, actually, yes — but that's only because we hardly ever see each other. He plays games or sleeps all day. Sometimes he gets out of his room, just to go to his classes, and then he comes back and go to his room. Then he'll get up at midnight and study all night." 
+      "response": "Well, actually, yes - but that's only because we hardly ever see each other. He plays games or sleeps all day. Sometimes he gets out of his room, just to go to his classes, and then he comes back and goes to his room. Then he'll get up at midnight and study all night." 
     },
     { 
       "question": "Серьезно, вы даже не едите вместе или зависаете, тогда?", 
@@ -31,7 +31,7 @@
     },
     { 
       "question": "Нет! Он невероятно аккуратен. Он дейстаительно оставляет ванну чистой, и, кажется, у него совсем нет грязных вещей. Он как призрак.", 
-      "response": "No! He is incredibly neat. He actually leaves the bathroom clean — and he doesn't seem to have dirty clothes. He's like a ghost." 
+      "response": "No! He is incredibly neat. He actually leaves the bathroom clean - and he doesn't seem to have dirty clothes. He's like a ghost." 
     },
     { 
       "question": "Слушай, похоже у тебя идеальный сосед!", 
@@ -42,7 +42,7 @@
       "response": "What about yours? What's he like?" 
     },
     { 
-      "question": "Ну, мой совсем наоборот. У нас много общегоб и мы проводим много времени вместе. У нас два общих занятия, и мы состоим в одном братстве, поэтому мы реально прекрасные друзья.", 
+      "question": "Ну, мой совсем наоборот. У нас много общего, и мы проводим много времени вместе. У нас два общих занятия, и мы состоим в одном братстве, поэтому мы реально прекрасные друзья.", 
       "response": "Well, he's like the opposite of yours. We're a lot alike, and we're together a lot. We have two classes together and we're in the same fraternity, so we're really great friends." 
     },
     { 
@@ -51,11 +51,11 @@
     },
     { 
       "question": "Ну, и да и нет. Он как торнадо в доме. Прежде всего он всегда оставляет беспорядок на кухне, никогда не моет посуду. Плюс он не кладет свои вещи на место. Я не говорю, что остается после него в ванной... ", 
-      "response": "Well, Mmmm yes — and no. He's like a tornado in the house. In the first place, he always leaves a big mess in the kitchen, he never washes. Plus, he leaves all his clothes all over the place. Not to mention how he leaves the bathroom..." 
+      "response": "Well, Mmmm yes - and no. He's like a tornado in the house. In the first place, he always leaves a big mess in the kitchen, he never washes. Plus, he leaves all his clothes all over the place. Not to mention how he leaves the bathroom..." 
     },
     { 
-      "question": " Ну вот, Дэйв. Он очень похож на тебя. Не мудрено, что вы так хорошо поладили.", 
-      "response": "Come on, Dave — he sounds a lot like you. No wonder you get along so well!" 
+      "question": " Ну вот, Дэйв. Он очень похож на тебя. Не мудрено, что вы так хорошо поладили!", 
+      "response": "Come on, Dave - he sounds a lot like you. No wonder you get along so well!" 
     }
   ] 
 }

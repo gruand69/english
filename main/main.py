@@ -164,6 +164,18 @@ class MainWindow(QtWidgets.QMainWindow):
                     'more than one match for each expression.')
                 window = Ex2(data['test'], sign)
                 window.setWindowTitle("Ex4")
+            if m == 5:
+                data = self.open_file(n, m)
+                sign = (
+                        "Choose the word or expression that best completes " +
+                        "each of the following sentences.")
+                window = Ex1(data['test'], sign)
+            if m == 6:
+                data = self.open_file(n, m)
+                sign = ("Choose  the most appropriate response " +
+                        "to each of the following questions or " +
+                        "statements.")
+                window = Ex1(data['test'], sign)
         else:
             pass
         try:

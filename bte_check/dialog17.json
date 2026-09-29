@@ -1,0 +1,65 @@
+
+{
+    "test": [ 
+    { 
+      "question": "Не работает телевизор.", 
+      "response": "The TV doesn't work."
+    },
+    { 
+      "question": "Не работает пульт телевизора.", 
+      "response": "The TV remote control doesn't work."
+    },
+  { 
+      "question": "Не работает кондиционер.", 
+      "response": "The air conditioner doesn't work."
+    },
+    { 
+      "question": "Не работает чайник.",
+      "response": "The kettle doesn't work."
+    },
+    { 
+      "question": "Не горит свет.",
+      "response": "The light doesn't switch on."
+    },
+  { 
+      "question": "Перегорела лампочка.", 
+      "response": "The bulb has burnt out."
+    },
+    { 
+      "question": "Не закрывается шкаф.", 
+      "response": "The wardrobe doesn't close."
+    },
+    { 
+      "question": "Сломана кровать.",
+      "response": "The bed's broken."
+    },
+  { 
+      "question": "Не закрывается окно.",
+      "response": "The window doesn't close."
+    },
+    { 
+      "question": "Не открывается окно.", 
+      "response": "The window doesn't open."
+    },
+    { 
+      "question": "Разбито стекло в окне.", 
+      "response": "The window pane's broken."
+    },
+  { 
+      "question": "Не работает душ.", 
+      "response": "The shower doesn't work."
+    },
+    { 
+      "question": "Не работает кран в ванне.", 
+      "response": "The bath tap doesn't work."
+    },
+    { 
+      "question": "Не работает кран в раковине.", 
+      "response": "The sink tap doesn't work. "
+    },
+  { 
+      "question": "Сломан унитаз.",
+      "response": "The toilet's broken."
+    }
+      ] 
+}

@@ -69,7 +69,68 @@
       "title": "<b>Tell me about yourself.</b>",
       "inform": "<b>Tell me about yourself</b> is a polite way to let someone know that you are interested in learning more about him or her. It is better than asking direct questions, as a person being asked can decide what to tell and what not to tell. For example:" ,
       "example": "Tell me about yourself. Well, I'm twenty-seven, I have a degree in mathematics, and I've been working at SYZ Company for three years. My parents are both economists, and I have a sister who's a nurse and two younger brothers. They live in Connecticut, where I was born. I'm crazy about football and have season tickets. I listen to reggae, etc. Tell me more about youself. Well, I'm from a small town, and I came here to work."
+    },
+    { 
+      "title": "<b></b>",
+      "inform": "" ,
+      "example": ""
+    },
+    { 
+      "title": "<b>Awesome</b>",
+      "inform": "<b>Awesome</b> is an expression that is used a lot - maybe too much! - to say that you think something is really good. Other ways to express the same thing include great, fantastic, terrific, wonderfull, and cool.",
+      "example": "So... how domyou like it here? It's awesome! Did you like the movie? It was awesome! Thank you for taking me - you're awesome."
+    },
+    { 
+      "title": "<b>Nonstop schedule</b>",
+      "inform": "<b>Nonstop schedule</b> describes the activities of a very busy person, whether it be because of work, school, family responsibilities, or even social life. I don't have time to see you this week, with my nonstop schedule." ,
+      "example": "Other ways to indicate nonstop activity are around-the-clock or twenty-four-seven(twenty-four hours a day, seven days a week). I get telephone calls around-the-clock. He works twenty-four-seven, so I hardly ever see him."
+    },
+    { 
+      "title": "<b>A mix</b>",
+      "inform": "<b>A mix</b> refers to a combination of different elements, usually indicating variety." ,
+      "example": "There will be a good mix of music at the wedding, to keep the grandparents, the parents, and the young people happy. We invited a mix of people - family, friends, coworkers, and heoghbours."
+    },
+    { 
+      "title": "<b>Hopefully</b>",
+      "inform": "<b>Hopefully</b> is a word inserted to indicate your wishes that something will happen. It can come in the middle of ver phrase (will + hopefully +verb), before the subject, or at the end of sentense.",
+      "example": "I'll hopefully graduate in two years. Hopefully, I'll graduate in two years. I'll graduate in two years, hopefully. If we leave right away, hopefully we'll arrive on time."
+    },
+    { 
+      "title": "<b>A couple of</b>",
+      "inform": "<b>A couple</b> really means two; however, informally, it can mean more than that - but it does indicate a small number.",
+      "example": "I'll se you in a couple of hours. I'll see you sometime today. It only costs a couple of dollars. It costs less than five dollars. He'll be home in a couple of months. He'll be home before the end of the year."
+    },
+    { 
+      "title": "<b>A good guy</b>",
+      "inform": "Calling someone a good guy is a common way to recommend a mail as being understanding of someone's situation, helpful or generous. A female with the same kind of recommendation would be called understanding/helpful/generous.",
+      "example": "If you're looking for a used car, go see Sam Smith; he's a good guy and will probably give you a good price. If you want a teaching job, call Mary Johnson; she's very understanding and will give you good advice."
+    },
+    { 
+      "title": "<b>The local scene</b>",
+      "inform": "The local scene refers to the culture and range of entertainment offered in a particular area.",
+      "example": "I'm moving to Springfield next month. What's the local scene like there? Oh, it's great! There are a lot of things to do at nights and on weekends."
+    },
+    { 
+      "title": "<bTo show someone a good time</b>",
+      "inform": "<bTo show someone a good time</b> means to make sure he or she is entertained.",
+      "example": "If you come visit on December, we'll show you a good time. All our friends have parties in December!"
+    },
+    { 
+      "title": "<b></b>",
+      "inform": "",
+      "example": ""
+    },
+    { 
+      "title": "<b></b>",
+      "inform": "",
+      "example": ""
+    },
+    { 
+      "title": "<b></b>",
+      "inform": "",
+      "example": ""
     }
+  
 
   ] 
 }

@@ -62,7 +62,7 @@
     },
     { 
       "question":  "Да, вот подтверждение отеля и квитанция об оплате.", 
-      "response": " Yes, here's the hotel confirmation and payment receipt." 
+      "response": "Yes, here's the hotel confirmation and payment receipt." 
     },
     { 
       "question": "Большое спасибо, желаю приятно провести время в Лондоне.", 

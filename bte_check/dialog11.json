@@ -1,0 +1,81 @@
+
+{
+    "test": [ 
+    { 
+      "question": "Извините, где можно получить возврат НДС?", 
+      "response": "Excuse me, where can I get a VAT refund?"
+    },
+    { 
+      "question": "Стойка возврата в зале вылета за зоной контроля безопасности.", 
+      "response": "The desk's in the departure lounge past the security zone."
+    },
+  { 
+      "question": "Спасибо.", 
+      "response": "Thank you."
+    },
+    { 
+      "question": "Это офис возврата НДС, чем могу помочь?", 
+      "response": "This is the VAT Reclaim office, how can I help you?"
+    },
+    { 
+      "question": "Я хочу вернуть НДС на некоторые товары.", 
+      "response": "I want a VAT refund for some goods."
+    },
+  { 
+      "question": "Вы путешествуете внутри ЕЭС?", 
+      "response": "Are you travelling within the EEC?"
+    },
+    { 
+      "question": "Нет, я уезжаю в США.", 
+      "response": "No, I'm leaving for the USA."
+    },
+    { 
+      "question": "Ваш паспорт, посадочный талон и квитанции на НДС, пожалуйста.", 
+      "response": "Your passport, boarding card and VAT forms please."
+    },
+    { 
+      "question": "Вот, пожалуйста.", 
+      "response": "Here you are."
+    },
+    { 
+      "question": "Можно взглянуть на товары?", 
+      "response": "Can I see the goods, please? "
+    },
+    { 
+      "question": "Вот куртка, а сапоги я упаковал в чемодан и сдал в багаж.", 
+      "response": "Here's the jacket, but I packed my boots in the suitcase and checked it in."
+    },
+    { 
+      "question": "К сожалению, тогда я смогу оформить Вам возврат только на куртку.", 
+      "response": "Unfortunately I can only give you a refund for the jacket then."
+    },
+    { 
+      "question": "Хорошо, как мне получить деньги?", 
+      "response": "O.K, how do I get the money back?"
+    },
+  { 
+      "question": "Я проштампую эту форму, затем Вам надо положить ее в конверт и бросить в почтовый ящик за углом. Деньги будут зачислены на Ваш счет.", 
+      "response": "I'll stamp this form, then you have to put it in the envelope and drop it in the post box round the corner. The money will be credited to your account."
+    },
+  { 
+      "question": "Сколько времени это займет? ", 
+      "response": "How long will it take?"
+    },
+  { 
+      "question": "Около трех - четырех недель", 
+      "response": "About three to four weeks."
+    },
+  { 
+      "question": "А  могу я получить их наличными?", 
+      "response": "Can I get it in cash?"
+    },
+  { 
+      "question": "Да, этот магазин позволяет вернуть НДС наличными. Возьмите эту форму и идите в офис Томаса Кука. Это в этом же зале. Там выдадут наличные.", 
+      "response": "Yes, the shop allows you to get a cash refund. Take this form and go to the Thomas Cook office. It's in the same area. You'll get your cash there."
+    },
+  { 
+      "question": "Большое спасибо.", 
+      "response": "Thank you very much."
+    }
+  ] 
+}

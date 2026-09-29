@@ -1,0 +1,43 @@
+
+{
+    "test": [ 
+    { 
+      "question": "Не оставляйте свои вещи без присмотра. Все оставленные предметы будет забирать служба безопасности.", 
+      "response": "Don't leave your luggage unattended. All unattended items will be removed by security."
+    },
+    { 
+      "question": "Я оставил дипломат на одном из кресел, а сейчас его там нет!", 
+      "response": "I left my briefcase on one of the chairs and now it's not there!"
+    },
+  { 
+      "question": "Когда Вы его оставили?", 
+      "response": "When did you leave it?"
+    },
+    { 
+      "question": "Примерно полчаса назад.",
+      "response": "About half an hour ago."
+    },
+    { 
+      "question": "Его наверное забрал персонал аэропорта.", 
+      "response": "It was probably removed by the airport staff."
+    },
+  { 
+      "question": "Я могу получить его назад?", 
+      "response": "Can I get it back?"
+    },{ 
+      "question": "Да. Идите в бюро забытых вещей. Он, наверное, у них.", 
+      "response": "Yes. Go to the «lost and found» desk. They'll probably have it."
+    },
+    { 
+      "question": "А что если его взяла служба безопасности?", 
+      "response": "And what if it was taken by security?"
+    },
+  { 
+      "question": "Они проверят в службе безопасности, если не смогут найти, среди забытых вещей.", 
+      "response": "They'll check with security if they can't find it among the lost and found things."
+    },{ 
+      "question": "Спасибо.", 
+      "response": " Thanks a lot."
+    }
+  ] 
+}

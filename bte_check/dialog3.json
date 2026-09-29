@@ -2,7 +2,7 @@
 {
     "test": [ 
     { 
-      "question": " Мне идти через зеленый или красный коридор?", 
+      "question": "Мне идти через зеленый или красный коридор?", 
       "response": "Should I go through the green or the red channel?" 
     }, 
     { 
@@ -18,7 +18,7 @@
       "response": "There's a list of goods to declare in front of the customs." 
     },
     { 
-      "question":  "У меня с собой есть алкоголь.", 
+      "question": "У меня с собой есть алкоголь.", 
       "response": "I've got some alcohol with me." 
     },
     { 

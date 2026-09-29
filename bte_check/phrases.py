@@ -103,6 +103,8 @@ class CheckWindow(QtWidgets.QDialog):
     def __init__(self, lst, parent=None):
         self.lst = lst
         self.i = 0
+        self.score = 0
+        self.flag = True
         QtWidgets.QWidget.__init__(self, parent)
 
         self.labelRus = QtWidgets.QLabel(self.lst[self.i][0])
@@ -119,7 +121,7 @@ class CheckWindow(QtWidgets.QDialog):
             "border: 1px dashed black; border-radius: 10px;")
 
         self.btnCheck = QtWidgets.QPushButton("Check")
-        self.btnBack = QtWidgets.QPushButton("<< &Back")
+        # self.btnBack = QtWidgets.QPushButton("<< &Back")
         self.btnForw = QtWidgets.QPushButton("&Forward >>")
         self.btnQuit = QtWidgets.QPushButton("&Close the window")
 
@@ -129,7 +131,7 @@ class CheckWindow(QtWidgets.QDialog):
 
         self.vboxNavBtn = QtWidgets.QHBoxLayout()
         self.vboxNavBtn.addWidget(self.btnCheck)
-        self.vboxNavBtn.addWidget(self.btnBack)
+        # self.vboxNavBtn.addWidget(self.btnBack)
         self.vboxNavBtn.addWidget(self.btnForw)
         self.vboxNavBtn.addWidget(self.btnQuit)
 
@@ -143,15 +145,18 @@ class CheckWindow(QtWidgets.QDialog):
         self.btnQuit.clicked.connect(QtWidgets.qApp.quit)
         self.btnQuit.clicked.connect(self.btnClosed)
         self.btnCheck.clicked.connect(self.on_btnCheck_clicked)
-        self.btnBack.clicked.connect(self.on_btnBack_clicked)
+        # self.btnBack.clicked.connect(self.on_btnBack_clicked)
         self.btnForw.clicked.connect(self.on_btnForw_clicked)
 
     def on_btnForw_clicked(self):
         if self.i < len(self.lst) - 1:
+            self.flag = True
             self.i += 1
             self.labelRus.setText(self.lst[self.i][0])
             self.textEdit.clear()
             # self.labelEng.setText(self.lst[self.i]['response'])
+        else:
+            QtWidgets.QMessageBox.information(self, 'Mesage', f'Your result: {self.score} from 10.')
 
     def on_btnBack_clicked(self):
         if self.i > 0:
@@ -164,9 +169,12 @@ class CheckWindow(QtWidgets.QDialog):
         answer = self.textEdit.toPlainText()
         if answer == self.lst[self.i][1]:
             QtWidgets.QMessageBox.information(self, 'Mesage', 'Excellent!')
+            if self.flag:
+                self.score += 1
         # else:
         elif answer:
             # self.textEdit.clear()
+            self.flag = False
             dialog = DiffWindow(self.lst[self.i][1],
                                 self.textEdit.toPlainText())
             self.textEdit.clear()

@@ -1,0 +1,29 @@
+
+{
+    "test": [ 
+    { 
+      "question": "Кто там?", 
+      "response": "Who is it?"
+    },
+    { 
+      "question": "Я принес Ваш багаж, сэр.", 
+      "response": "I've brought your luggage, sir."
+    },
+  { 
+      "question": "Входите.", 
+      "response": "Come in."
+    },
+    { 
+      "question": "Вот Ваша сумка и чемодан. Чемодан очень тяжелый.", 
+      "response": "Here's your bag and your suitcase. The suitcase is very heavy."
+    },
+    { 
+      "question": "Поставьте багаж сюда.", 
+      "response": "Put the luggage here."
+    },
+  { 
+      "question": "Спасибо. До свидания, сэр.", 
+      "response": "Thank you. Good bye, sir."
+    }
+  ] 
+}

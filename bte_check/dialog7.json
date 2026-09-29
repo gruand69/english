@@ -1,0 +1,45 @@
+
+{
+    "test": [ 
+    { 
+      "question": "Добрый день. Аэропорт Хитроу, пожалуйста.", 
+      "response": "Good afternoon. Heathrow airport, please." 
+    },
+    { 
+      "question": "Конечно, сэр. Какой терминал?", 
+      "response": "Certainly, sir. Which terminal?" 
+    },
+    { 
+      "question": "Я не знаю.", 
+      "response": "I don't know." 
+    },
+    { 
+      "question": "Какой авиакомпанией вы летите?", 
+      "response": "Which airline are you flying with?"
+    },
+    { 
+      "question": "Британские Авиалинии.", 
+      "response": "British Airways." 
+    },
+    { 
+      "question": "А, тогда это 4-й терминал. Мы приехали. Вам нужна тележка?", 
+      "response": "Ah, then it's terminal 4. Here we are, sir. Do you need a trolley?" 
+    },
+    { 
+      "question": "Нет, спасибо.", 
+      "response": "No, thank you" 
+    },
+    { 
+      "question": "С Вас 35.50. ", 
+      "response": "It's 35.50" 
+    },
+    { 
+      "question": "Вот, возьмите 40 фунтов, сдачи не надо.", 
+      "response": "Here's 40 pounds and keep the change." 
+    },
+    { 
+      "question": "Большое спасибо, сэр.", 
+      "response": "Thank you very much, sir." 
+    }    
+  ] 
+}

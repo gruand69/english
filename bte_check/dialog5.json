@@ -6,7 +6,7 @@
       "response": "Excuse me, I booked a transfer but it didn't arrive. How can I get to the centre?" 
     },
     { 
-      "question": " ы можете взять такси при выходе из терминала. Там стоянка такси.", 
+      "question": "Вы можете взять такси при выходе из терминала. Там стоянка такси.", 
       "response": "You can take a taxi outside the terminal. There's a taxi rank." 
     },
     { 
@@ -18,7 +18,7 @@
       "response": "Yes, there's the underground."
     },
     { 
-      "question":  "Мне нужно доехать до метро на автобусе?", 
+      "question": "Мне нужно доехать до метро на автобусе?", 
       "response": "Do I take a bus to the underground station?" 
     },
     { 
@@ -42,7 +42,7 @@
       "response": "Yes, there's a railway station quite near. The train will take you to one of the central stations." 
     },
     { 
-      "question": " Спасибо, я лучше возьму такси.", 
+      "question": "Спасибо, я лучше возьму такси.", 
       "response": "Thank you, I'd rather take a taxi." 
     } 
     

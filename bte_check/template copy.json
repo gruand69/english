@@ -1,0 +1,69 @@
+
+{
+    "test": [ 
+    { 
+      "question": "Что Вы желаете, сэр?", 
+      "response": "What would you like, sir?" 
+    },
+    { 
+      "question": "Я хотел бы шотландский виски.", 
+      "response": "I'd like a Scotch whisky." 
+    },
+    { 
+      "question": "Балантайнз подойдет?", 
+      "response": "Is Ballentines O.K?" 
+    },
+    { 
+      "question": "Да, вполне.", 
+      "response": "Yes, fine."
+    },
+    { 
+      "question": "Виски со льдом?", 
+      "response": "Whisky with ice?" 
+    },
+    { 
+      "question": "Нет, без льда.", 
+      "response": "No ice." 
+    },
+    { 
+      "question": "Что-нибудь еще, сэр?", 
+      "response": "Anything else, sir?" 
+    },
+    { 
+      "question": "Да, стакан воды со льдом и лимоном, пожалуйста.", 
+      "response": "Yes, a glass of water with ice and lemon, please." 
+    },
+    { 
+      "question": "Вода с газом или без газа?", 
+      "response": "Water with gas or without?" 
+    },
+    { 
+      "question": "Без газа.", 
+      "response": "Without." 
+    },
+    { 
+      "question": "4 фунта, пожалуйста.", 
+      "response": "4 pounds, please." 
+    },
+    { 
+      "question": "Запишите на комнату. Моя комната 330. Вот карточка постояльца.", 
+      "response": "Put it on my room. My room's 330. Here's the guest card." 
+    },
+    { 
+      "question": "Спасибо, сэр. Распишитесь здесь, пожалуйста.", 
+      "response": "Thank you, sir. Can you sign here, please." 
+    },
+    { 
+      "question": "А где можно купить сигареты?", 
+      "response": "Where can I buy cigarettes?" 
+    },
+    { 
+      "question": "Их можно купить в автомате. Автомат стоит в холле отеля.", 
+      "response": "You can buy them from the machine. The machine's in the entrance hall." 
+    },
+    { 
+      "question": "Пожалуйста, не могли бы Вы разменять 5 фунтов для автомата?", 
+      "response": "Can you change 5 pounds for the machine, please?" 
+    } 
+  ] 
+}

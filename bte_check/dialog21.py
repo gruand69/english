@@ -35,6 +35,21 @@ random_pairs = [[key, task[key]] for key in random_keys]
 # print(random_pairs)
 
 
+class EnterFilter(QtCore.QObject):
+    def __init__(self, callback):
+        super().__init__()
+        self.callback = callback  # Функция, которую вызовем при Enter
+
+    def eventFilter(self, obj, event):
+        # Проверяем, что это нажатие клавиши Enter (основной или на цифровой клавиатуре)
+        if event.type() == QtCore.QEvent.KeyPress and event.key() in (QtCore.Qt.Key_Return, QtCore.Qt.Key_Enter):
+            # Если НЕ зажат Shift — отправляем сообщение
+            if not (event.modifiers() & QtCore.Qt.ShiftModifier):
+                self.callback()
+                return True  # Блокируем перенос строки в самом поле ввода
+        return super().eventFilter(obj, event)
+
+
 class DiffWindow(QtWidgets.QDialog):
     def __init__(self, question, response, parent=None):
         self.question = question
@@ -55,6 +70,9 @@ class DiffWindow(QtWidgets.QDialog):
             "border: 1px dashed black; border-radius: 10px;")
 
         self.compare()
+
+        # self.label_ans.setReadOnly(True)
+        # self.label_ans.setEnabled(False)
 
         self.btnQuit = QtWidgets.QPushButton("&Close the window")
 
@@ -92,6 +110,7 @@ class DiffWindow(QtWidgets.QDialog):
             cursor.movePosition(QTextCursor.Right, QTextCursor.KeepAnchor,
                                 1)
             cursor.mergeCharFormat(highlight_format)
+        self.label_ans.setReadOnly(True)
 
 
 class CheckWindow(QtWidgets.QDialog):
@@ -101,10 +120,15 @@ class CheckWindow(QtWidgets.QDialog):
         self.last = 0
         self.timer_interval = 50
         self.current_value = 0
+        self.score = 0
+        self.flag = True
+
         QtWidgets.QWidget.__init__(self, parent)
 
-        self.last = len(self.lst[self.i][0])
-        self.step = (100 - 0) * self.timer_interval / (self.last * 1000)
+        self.step = 0
+
+        self.last = len(self.lst[self.i][1])
+        # self.step = (100 - 0) * self.timer_interval / (self.last * 1000)
 
         self.labelRus = QtWidgets.QLabel(
             self.lst[self.i][0] + ' ' + str(self.last))
@@ -116,14 +140,16 @@ class CheckWindow(QtWidgets.QDialog):
             "border: 1px dashed black; border-radius: 10px;")
 
         self.textEdit = QtWidgets.QPlainTextEdit()
+        # self.textEdit = QtWidgets.QTextEdit()
+
         self.textEdit.setFont(QFont('Times', 14))
         self.textEdit.setStyleSheet(
             "border: 1px dashed black; border-radius: 10px;")
 
-        self.btnCheck = QtWidgets.QPushButton("Check")
-        self.btnBack = QtWidgets.QPushButton("<< &Back")
-        self.btnForw = QtWidgets.QPushButton("&Forward >>")
-        self.btnQuit = QtWidgets.QPushButton("&Close the window")
+        # self.btnCheck = QtWidgets.QPushButton("Check")
+        # self.btnBack = QtWidgets.QPushButton("<< &Back")
+        # self.btnForw = QtWidgets.QPushButton("&Forward >>")
+        # self.btnQuit = QtWidgets.QPushButton("&Close the window")
 
         self.pbar = QtWidgets.QProgressBar()
         self.pbar.setRange(0, 100)
@@ -138,10 +164,10 @@ class CheckWindow(QtWidgets.QDialog):
         self.vboxLabel.addWidget(self.pbar)
 
         self.vboxNavBtn = QtWidgets.QHBoxLayout()
-        self.vboxNavBtn.addWidget(self.btnCheck)
-        self.vboxNavBtn.addWidget(self.btnBack)
-        self.vboxNavBtn.addWidget(self.btnForw)
-        self.vboxNavBtn.addWidget(self.btnQuit)
+        # self.vboxNavBtn.addWidget(self.btnCheck)
+        # self.vboxNavBtn.addWidget(self.btnBack)
+        # self.vboxNavBtn.addWidget(self.btnForw)
+        # self.vboxNavBtn.addWidget(self.btnQuit)
 
         self.vboxVert = QtWidgets.QVBoxLayout()
         self.vboxVert.addLayout(self.vboxLabel)
@@ -150,13 +176,21 @@ class CheckWindow(QtWidgets.QDialog):
         self.setLayout(self.vboxVert)
         self.setGeometry(400, 200, 600, 300)
 
-        self.btnQuit.clicked.connect(QtWidgets.qApp.quit)
-        self.btnQuit.clicked.connect(self.btnClosed)
-        self.btnCheck.clicked.connect(self.on_btnCheck_clicked)
-        self.btnBack.clicked.connect(self.on_btnBack_clicked)
-        self.btnForw.clicked.connect(self.on_btnForw_clicked)
+        # self.btnQuit.clicked.connect(QtWidgets.qApp.quit)
+        # self.btnQuit.clicked.connect(self.btnClosed)
+        # self.btnCheck.clicked.connect(self.on_btnCheck_clicked)
+        # self.btnBack.clicked.connect(self.on_btnBack_clicked)
+        # self.btnForw.clicked.connect(self.on_btnForw_clicked)
+        # self.textEdit.returnPressed.connect(self.on_btnCheck_clicked)
+
+        self.enter_filter = EnterFilter(self.on_btnCheck_clicked)
+        self.textEdit.installEventFilter(self.enter_filter)
 
         self.start_progress()
+
+    # def keyPressEvent(self, event):
+    #     if event.key() == QtCore.Qt.Key_Enter:
+    #         self.on_btnCheck_clicked()
 
     def start_progress(self):
         self.current_value = 0.0
@@ -164,38 +198,69 @@ class CheckWindow(QtWidgets.QDialog):
         self.timer.start(self.timer_interval)
 
     def advance_progress(self):
+        self.step = (100 - 0) * self.timer_interval / (self.last * 700)
         self.current_value += self.step
         if self.current_value >= 100:
-            self.pbar.setValue(0)
-            self.timer.stop()
+            self.on_btnCheck_clicked()
+            # self.pbar.setValue(0)
+            # self.timer.stop()
+
+            # self.flag = False
+            # dialog = DiffWindow(
+            #     self.lst[self.i][1], self.textEdit.toPlainText())
+            # self.textEdit.clear()
+            # dialog.exec_()
+            # self.start_progress()
+
         else:
             self.pbar.setValue(int(self.current_value))
 
     def on_btnForw_clicked(self):
         if self.i < len(self.lst) - 1:
+            self.start_progress()
+            self.flag = True
             self.i += 1
-            self.last = len(self.lst[self.i][0])
+            self.last = len(self.lst[self.i][1])
             self.labelRus.setText(
-                self.lst[self.i][0] + ' ' + str(self.last))
+                self.lst[self.i][0] + ' ' + str(self.last) + ' ' + str(self.step))
+        else:
+            QtWidgets.QMessageBox.information(
+                self, 'Mesage', f'Your result: {self.score} from 10.')
+            self.close()
 
     def on_btnBack_clicked(self):
         if self.i > 0:
             self.i -= 1
-            self.last = len(self.lst[self.i][0])
+            self.last = len(self.lst[self.i][1])
             self.labelRus.setText(self.lst[self.i][0] + ' ' + str(self.last))
 
     def on_btnCheck_clicked(self):
+        self.timer.stop()
         answer = self.textEdit.toPlainText()
         if answer == self.lst[self.i][1]:
+            self.timer.stop()
             QtWidgets.QMessageBox.information(self, 'Mesage', 'Excellent!')
-        elif answer:
-            dialog = DiffWindow(self.lst[self.i][1],
-                                self.textEdit.toPlainText())
+            if self.flag:
+                self.score += 1
+            self.textEdit.clear()
+            self.on_btnForw_clicked()
+        else:
+            self.flag = False
+            dialog = DiffWindow(
+                self.lst[self.i][1], self.textEdit.toPlainText())
             self.textEdit.clear()
             dialog.exec_()
-        else:
-            QtWidgets.QMessageBox.information(
-                self, 'Mesage', 'Print something, please!')
+            self.start_progress()
+        # elif answer:
+        #     dialog = DiffWindow(self.lst[self.i][1],
+        #                         self.textEdit.toPlainText())
+        #     self.textEdit.clear()
+        #     dialog.exec_()
+        #     self.start_progress()
+        # else:
+        #     QtWidgets.QMessageBox.information(
+        #         self, 'Mesage', 'Print something, please!')
+        #     self.start_progress()
 
     def btnClosed(self):
         self.close()

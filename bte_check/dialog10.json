@@ -1,0 +1,37 @@
+
+{
+    "test": [ 
+    { 
+      "question": "Ваш паспорт и посадочный талон, пожалуйста.", 
+      "response": "Your passport and boarding card, please."
+    },
+    { 
+      "question": "Вот, пожалуйста.", 
+      "response": "Here you are."
+    },
+  { 
+      "question": "Пожалуйста, поставьте вашу ручную кладь сюда. Выньте из карманов все металлические предметы и положите на поднос.", 
+      "response": "Please, put your handbag here. Take all the metal things out of your pockets and put them on the tray."
+    },
+    { 
+      "question": "Он все равно звенит. Я не знаю, в чем дело.", 
+      "response": "It's still ringing. I don't know what it is."
+    },
+    { 
+      "question": "Подойдите сюда, сэр. Я Вас проверю. Это должно быть зажигалка. Все в порядке.", 
+      "response": "Come here, sir. I'll check you. It's probably a lighter. Everything's O.K."
+    },
+    { 
+      "question": "Спасибо, можно идти?", 
+      "response": "Thank you, can I go?"
+    },
+    { 
+      "question": "Конечно, и не забудьте забрать Вашу ручную кладь.", 
+      "response": "Of course and don't forget to pick up your hand luggage."
+    },
+    { 
+      "question": "Я знаю, спасибо.", 
+      "response": "I know, thank you."
+    }
+  ] 
+}

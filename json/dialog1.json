@@ -2,47 +2,47 @@
 {
     "test": [ 
     { 
-      "question": "Привет, ты должно быть двоюродный брат Джона Мэт, так? Из Сан  Диего?", 
-      "response": "Hi, you must be John's cousin Matt, right? From San Diego?" 
+      "question": "Привет, ты, должно быть, Мэтт, двоюродный брат Джона, верно? Из Сан-Диего?", 
+      "response": "Hi, you must be John's cousin Matt, right? From San Diego?"
     }, 
     { 
-      "question": "Точно! Я только прошлой ночью приехал.", 
-      "response": "Correct! I just got in last night." 
+      "question": "Верно! Я только вчера вечером приехал.",
+      "response": "Correct! I just got in last night."
     },
     { 
-      "question": "Я Тодд, сосед Джона по комнате в Политене. Рад с тобой познакомится. Могу заверить, что я не совсем то, о чем тебе говорил Джон.", 
+      "question": "Я Тодд, сосед Джона по комнате со времен учебы в Техническом. Рад знакомству. Уверяю вас: я совсем не такой, каким меня описывал Джон.", 
       "response": "I'm Todd, John's roommate from Tech. Glad to meet you. I can assure you that I'm not anything like what John has told you." 
     },
     { 
-      "question": "Я тоже счастлив познакомиться с тобой, и, да я о тебе слышал. Играешь в футбол и необыкновенно любишь вечеринки.", 
+      "question": "Я тоже рад знакомству, и да — я о вас слышал. Футболист и заядлый тусовщик.", 
       "response": "I'm happy to meet you, too, and, yes I have heard about you. Football player and party animal extraordinaire." 
     },
     { 
-      "question": "Футбол, да, и если смотреть на факты, я действительно люблю вечеринки. Но расскажи побольше о себе и чем ты занимаешься в Сан Диего. ", 
+      "question": "Футбол — да, и вообще-то я люблю вечеринки. Но расскажите побольше о себе и о том, чем вы занимаетесь в Сан-Диего.", 
       "response": "Football, yes, and as a matter of fact, I do like parties. But tell me more about yourself and what you do in San Diego." 
     },
     { 
-      "question": "Ну, я больше сурфер, чем игрок в футбол. Ты знаешь, в Сан диего фантастическое побережье, и мы можем заниматься серфингом целый день, а потом ночью на пляже устраивать вечеринки.", 
+      "question": "Ну, я скорее серфер, чем футболист. Знаешь, в Сан-Диего потрясающее побережье: можно кататься на волнах весь день, а по ночам тусоваться на пляже.", 
       "response": "Well, I'm more a surfer than a football player. You know, San Diego has a fantastic coast, and we can surf all day and then party on the beach at night." 
     },
     { 
-      "question": "Звучит потрясающе. Сколько ты пробудешь?", 
+      "question": "Звучит здорово. Как долго вы там пробудете?", 
       "response": "That sounds awesome. How long are you staying?" 
     },
     { 
-      "question": "Ну, я здесь на две недели. Джон обещал мне непрерывную программу, что-то вроде смеси осморта достопримечательностей, встреч с его друзьями, исследования местной тусовки и желательно похода в горы на пару дней. ", 
+      "question": "Что ж, я пробуду здесь две недели. Джон пообещал мне очень насыщенную программу: тут и осмотр достопримечательностей, и встречи с друзьями, и знакомство с местной жизнью, а еще — надеюсь — пара дней в горах с палаткой.", 
       "response": "Well, I'll be here for two weeks. John has promised me a nonstop schedule, kind of a mix of sightseeing, meeting his friends, checking out the local scene, and, hopefully camping in the mountains for a couple of days." 
     },
     { 
-      "question": "Джон отличный парень, и ты можешь быть уверен, он знает местную тусовку. Он знает каждого в городе. Я уверен, он покажет тебе хорошее время. А его друзья помогут в этом.", 
+      "question": "Джон — отличный парень, и будьте уверены: он прекрасно знает здешние места. Он знаком со всеми в городе. Уверен, он поможет вам отлично провести время. Да и его друзья тоже готовы помочь.", 
       "response": "John's a good guy, and you can be sure he knows the local scene. He knows everybody in town. I'm sure he will show you a good time. And his friends are here to help." 
     },
     { 
-      "question": "Большое спасибо, я очень ценю это. Я до сих пор не отошел от перелета, но завтра буду уже в хорошей форме. Я с нетерпением жду, что Джон для меня приготовил.", 
+      "question": "Большое спасибо, я очень это ценю. Пока еще сказывается смена часовых поясов, но к завтрашнему дню я должен быть в форме. С нетерпением жду возможности узнать, что для меня приготовил Джон.", 
       "response": "Thanks so much, I really appreciate that. I'm still a bit jet-lagged at the moment but should be in good shape by tomorrow. I'm looking forward to hearing what John has in store for me." 
     },
     { 
-      "question": "Не беспокойся. Мы все о тебе позаботимся. И не удивляйся, что мы однажды появимся у твоей двери в Сан Диего, готовые к серфингу!", 
+      "question": "Не волнуйтесь. Мы все будем о вас хорошо заботиться. И не удивляйтесь, если однажды мы объявимся у вас на пороге в Сан-Диего, готовые к сёрфингу!", 
       "response": "Don't worry. We'll all take good care of you. And don't be surprised if we show up on your doorstep in San Diego one day, ready for surfing!" 
     }
   ] 

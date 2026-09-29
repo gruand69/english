@@ -16,6 +16,7 @@ class DiffWindow(QtWidgets.QDialog):
         self.label_quest.setFont(QFont('Times', 14))
         self.label_quest.setStyleSheet(
             "border: 1px dashed black; border-radius: 10px;")
+        # self.label_quest.adjustSize()
 
         self.label_ans = QtWidgets.QTextEdit(self.response + ' ')
         # self.label_ans.setWordWrap(True)

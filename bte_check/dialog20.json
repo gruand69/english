@@ -1,0 +1,25 @@
+
+{
+    "test": [ 
+    { 
+      "question": "Можно мне лежак?", 
+      "response": "Can I have a sunbed?"
+    },
+    { 
+      "question": "Можно мне матрас для лежака?", 
+      "response": "Can I have a sunbed cushion? "
+    },
+  { 
+      "question": "Сколько это стоит?", 
+      "response": "How much is it?"
+    },
+{ 
+      "question": "Где мужская раздевалка?", 
+      "response": "Where's the gentlemen's changing room?"
+    },
+    { 
+      "question": "Где женская раздевалка?", 
+      "response": "Where's the ladies' changing room? "
+    }
+      ] 
+}

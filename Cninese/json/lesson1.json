@@ -1,0 +1,37 @@
+
+{
+    "test": [ 
+    { "id": 1,
+      "english": "What's up? / Hare are you? / What's happening?", 
+      "chinese": "zenme yang" 
+    }, 
+    { "id": 2,
+      "english": "Let's go! / Time to start / Move now", 
+      "chinese": "women zou ba" 
+    },{ "id": 3,
+      "english": "Of course / Certainly / Yes", 
+      "chinese": "dangran" 
+    },{ "id": 4,
+      "english": "Don't worry / It's OK / No problem", 
+      "chinese": "bie danxin" 
+    },{ "id": 5,
+      "english": "Good luck / Wish success", 
+      "chinese": "zhu ni hao yun" 
+    },{ "id": 6,
+      "english": "Take care / Stay safe / Goodbuy politely", 
+      "chinese": "baozhong" 
+    },{ "id": 7,
+      "english": "You too! / Same to you", 
+      "chinese": "ni ye shi" 
+    },{ "id": 8,
+      "english": "All right / Okay / Agreed", 
+      "chinese": "hao de" 
+    },{ "id": 9,
+      "english": "Hold on / Wait a moment", 
+      "chinese": "deng yixia" 
+    },{ "id": 10,
+      "english": "Take it easy / Relax / Don't stress", 
+      "chinese": "fang qingsong" 
+    }
+  ] 
+}

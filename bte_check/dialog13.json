@@ -1,0 +1,47 @@
+
+{
+    "test": [ 
+    { 
+      "question": "У меня стыковочный рейс Британских Авиалиний до Дублина. Куда мне идти?", 
+      "response": "I've got a connecting British Airways flight to Dublin. Where do I go?"
+    },
+    { 
+      "question": "Вы зарегистрировали багаж до Дублина или только до Лондона?", 
+      "response": "Have you checked your luggage through to Dublin or only to London?"
+    },
+  { 
+      "question": "До Лондона.", 
+      "response": "To London."
+    },
+    { 
+      "question": "Тогда вам надо сначала получить багаж и пройти в другой терминал.", 
+      "response": "Then you'll have to collect your luggage first and go to the other terminal."
+    },
+    { 
+      "question": "Как мне попасть в другой терминал?", 
+      "response": "How do I get to the other terminal?"
+    },
+  { 
+      "question": "Вы можете сесть на маршрутное такси. Это бесплатно.", 
+      "response": "You can take a shuttle bus. It's free."
+    },{ 
+      "question": "Мне надо проходить паспортный контроль и таможню?", 
+      "response": "Do I have to go through passport control and customs?"
+    },
+    { 
+      "question": "Да, потому что у Вас с собой багаж.", 
+      "response": "Yes, because you'll have your luggage with you."
+    },
+  { 
+      "question": "Как мне там найти стойку регистрации?", 
+      "response": "Where will I find the check in desk there?"
+    },{ 
+      "question": "Вам не надо регистрироваться. Следуйте указателю «транзит», а дальше ищите Ваш номер рейса.", 
+      "response": "You don't need to check in. Follow the sign «connecting flights» and then look out for your flight number."
+    },
+    { 
+      "question": "Большое спасибо.",
+      "response": " Thank you very much."
+    }
+  ] 
+}

@@ -1,0 +1,81 @@
+
+{
+    "test": [ 
+    { 
+      "question": "Привет, Джерри. Как дела? Давно тебя не видел.", 
+      "response": "Hi, Jerry. What's up? I haven't seen you for ages." 
+    }, 
+    { 
+      "question": "Марк! Вот так встреча. Есть время на чашечку кофе?", 
+      "response": "Mark! Fancy running into you here. Do you have time for a cup of coffee?" 
+    },
+    { 
+      "question": "Конечно. Нам действительно нужно наверстать упущенное. Что ты здесь делаешь?", 
+      "response": "Sure. We really need to catch up. What are you doing here?" 
+    },
+    { 
+      "question": "Я работаю в магазине одежды на другой стороне улицы. Пока что я продавец-консультант, но надеюсь дорасти до закупщика, когда наберусь опыта работы в торговом зале.", 
+      "response": "I work at the clothing store across the street. I'm a sales assistant for the time being, but I'm hoping to get promoted to buyer after I get some experience on the floor." 
+    }, 
+    { 
+      "question": "О, мне очень нравится этот магазин. Одежда там такая модная и совсем не похожа на ширпотреб. Ты отлично выглядишь — готов поспорить, что после твоего визита продажи у них выросли.", 
+      "response": "Oh - I really like that store. Their clothes are so trendy and different from the run of the mill. You look great - I'll bet their sales have gone up since you've been there." 
+    },
+    { 
+      "question": "Ну, я стараюсь! Дело в том, что мне нравится эта работа: мне по душе сама одежда, и мне нравится помогать покупателям. Вполне хорошая работа.", 
+      "response": "Well - I try! The thing is, I enjoy the work, because I like the clothes, and I like helping customers. It's a pretty good job." 
+    },
+    { 
+      "question": "Слушай, круто. И идея стать байером — отличная. Не успеешь оглянуться, как начнешь создавать собственные модели одежды. Помню, как ты мечтал заняться чем-то подобным.", 
+      "response": "Dude, awesome. And I think the idea of becoming a buyer is great. Before you know it, you'll be working on your own clothing designs. I remember how you used to dream about doing something like this." 
+    }, 
+    { 
+      "question": "Да, думаю, это шаг в правильном направлении. А чем ты сейчас занимаешься? Насколько я помню, ты собирался переехать в другую страну. Так ты вернулся насовсем?", 
+      "response": "Yeah, I think this is a step in the right direction. Now what are you up to? The last I heard, you were about to move to another country. So, are you back to stay?" 
+    },
+    { 
+      "question": "На самом деле, я вернулся всего несколько месяцев назад. Я рад, что съездил, ведь теперь точно знаю: я действительно хочу быть здесь. Сейчас я работаю официантом, но надеюсь устроиться преподавателем. Я уже подал документы в несколько местных школ, так что держу кулаки и надеюсь, что скоро найду работу.", 
+      "response": "As a matter of fact, I just got back a few of months ago. I'm glad I went, because now I know I really want to be here. I'm working as a waiter right now but I'm hoping to get a teaching job. I've applied to some of the schools here, so I have my fingers cross I'll find a job soon."
+    },
+    { 
+      "question": "Я слышал, что в школе «Джефферсон Хай» есть вакансии.", 
+      "response": "I've heard there are openings at Jefferson High."
+    }, 
+    { 
+      "question": "Да ладно! Я туда даже еще не подавал заявку. Сделаю это, как только вернусь домой. Слушай, было бы здорово, если бы им понадобился учитель английского. Спасибо за наводку! Кстати, работа официантом — не так уж и плохо. По выходным я получаю неплохие чаевые. А благодаря той информации, что ты мне дал, думаю, я пойду с тобой на работу и раскошелюсь на новый костюм!", 
+      "response": "No way! I haven't even applied there. I'll do it as soon as I get home. Man, it will be awesome if they need an English teacher. Thanks for the tip! Which reminds me - waiting tables isn't too bad. On weekends I get pretty good tips. And banking on the info you gave me, I think I'll follow you back to work and splurge on a new suit!"
+    },
+    { 
+      "question": "Отлично, у меня уже есть на примете кое-какие вещи, которые стоит примерить.", 
+      "response": "Great, I already have some things in mind for you to try on."
+    },
+    { 
+      "question": "Ого. Мне это нравится. Но, пожалуй, я забегаю вперед — у меня такое чувство, что это именно то, что нужно для собеседования.", 
+      "response": "Wow. I like this one. But I guess I'm getting ahead of myself, I have a feeling this is just what I need for the interview." 
+    }, 
+    { 
+      "question": "Выглядит потрясающе!", 
+      "response": "That looks awesome!" 
+    },
+    { 
+      "question": "Спасибо за помощь. Я просто в восторге! Так рад, что мы сегодня случайно встретились.", 
+      "response": "Thanks for your help. I'm really pumped! I'm so happy we ran into each other today."
+    },
+    { 
+      "question": "Я тоже. Давай обязательно встретимся в ближайшее время.", 
+      "response": "Me, too. Let's make sure we get together soon." 
+    }, 
+    { 
+      "question": "Да. Отличная идея. Будем на связи.", 
+      "response": "Yeah. That's a great idea. I'll keep in touch." 
+    },
+    { 
+      "question": "Береги себя и дай знать, как всё пройдет. Пока, до скорого.", 
+      "response": "Take care and let me know what happens. Bye and see you soon." 
+    },
+    { 
+      "question": "Пока — да, до скорого!", 
+      "response": "Bye - yeah, see you soon!" 
+    }
+  ] 
+}

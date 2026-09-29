@@ -1,0 +1,32 @@
+
+{
+    "test": [ 
+    { 
+      "question": "Администратор, чем могу помочь?", 
+      "response": "Reception, how can I help you?"
+    },
+    { 
+      "question": "Простите, у Вас есть оздоровительный центр?", 
+      "response": "Excuse me, have you got a health club?"
+    },
+  { 
+      "question": "Да, сэр. Тренажерный зал, бассейн, джакузи, сауна, парная и массаж. Массаж за отдельную плату.", 
+      "response": "Yes, sir. A gym, a swimming pool, jacuzzi, sauna, steam room and massage. Massage costs extra."
+    },
+     { 
+      "question": "Полотенце для бассейна мне нужно взять в оздоровительном центре или в фойе у консьержа?", 
+      "response": "Do I get a swimming towel in the health club or from the concierge?"
+    },
+    { 
+      "question": "Полотенце Вы можете взять у консьержа.", 
+      "response": "You can get a towel from the concierge."
+    },
+  { 
+      "question": "Спасибо. Я также хотел попросить утюг и форму для химчистки.", 
+      "response": "Thank you. I also wanted to ask for an iron and a dry cleaning form."
+    }, { 
+      "question": "Хорошо, сэр.", 
+      "response": "O.K, sir."
+    }
+      ] 
+}

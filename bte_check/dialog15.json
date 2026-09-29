@@ -1,0 +1,69 @@
+
+{
+    "test": [ 
+    { 
+      "question": "Здравствуйте, моя фамилия Джонс. На меня забронирован номер.", 
+      "response": "Good afternoon, my name's Johns. I've got a reservation."
+    },
+    { 
+      "question": "Извините, сэр, я не могу найти Вас по компьютеру.", 
+      "response": "Sorry, sir, I can't find you in the computer."
+    },
+  { 
+      "question": "Вот подтверждение моего бронирования.", 
+      "response": "Here's the confirmation of my reservation."
+    },
+    { 
+      "question": "Все в порядке, сэр. За Вами двухместный номер. Может быть Вы хотите одноместный номер?", 
+      "response": "All right, sir. You've got a double room. Maybe you want a single room? "
+    },
+    { 
+      "question": "Нет, оставьте двухместный. Завтра приедет моя жена.", 
+      "response": "No, I'll have a double. My wife's arriving tomorrow."
+    },
+  { 
+      "question": "Хорошо. Вы желаете комнату с двумя отдельными или одной большой кроватью?", 
+      "response": "O.K. Do you want a twin or a double room?"
+    },
+    { 
+      "question": "Одну большую кровать и курящий номер, пожалуйста.", 
+      "response": "A double bed and a smoking room, please."
+    },
+    { 
+      "question": "Заполните регистрационную карту. Какую газету Вы хотите утром?", 
+      "response": "Fill out the registration form. What newspaper do you want in the morning?"
+    },
+  { 
+      "question": "«Таймс», пожалуйста.",
+      "response": "The Times, please."
+    },
+    { 
+      "question": "Континентальный завтрак включен в стоимость. Английский завтрак и шведский стол оплачиваются дополнительно.", 
+      "response": "Your continental breakfast's included. English breakfast and buffet are extra."
+    },
+    { 
+      "question": "Хорошо.", 
+      "response": "O.K."
+    },
+  { 
+      "question": "Возьмите Ваш ключ. Вот Ваша карточка постояльца.", 
+      "response": "Take your key. Here's your guest card."
+    },
+    { 
+      "question": "Могу я попросить второй ключ для моей жены?", 
+      "response": "Can I ask for another key for my wife?"
+    },
+    { 
+      "question": "Безусловно, сэр.", 
+      "response": "Certainly, sir."
+    },
+  { 
+      "question": "Могу я попросить коридорного доставить мой багаж в номер?", 
+      "response": "Can I ask the bellboy to take my luggage to my room?"
+    },
+    { 
+      "question": "Конечно, сэр. Разрешите, пожалуйста, Вашу кредитную карточку.", 
+      "response": "Certainly, sir. Your credit card please."
+    }
+  ] 
+}

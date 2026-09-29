@@ -1,0 +1,29 @@
+{
+    "test": [ 
+    { 
+      "question": "Why did you order this? You know I ___ this kind of food.", 
+      "response": ["don't get along with", "grab a bite with", "can't stand", "hang out with"],
+      "correct": 3
+    },
+    { 
+      "question": "She can afford to go to college. She has savings, ___ she got a scholarship.", 
+      "response": ["even if", "plus", "yeah", "finally"],
+      "correct": 2
+    },
+    { 
+      "question": "We are interested in buying the house we saw this afternoon. ___ , it's much nicer than we expected.", 
+      "response": ["Actually", "Plus", "Finally", "Even if"],
+      "correct": 1
+    },
+    { 
+      "question": "Do you like your new roomie? Yeah, I ___ with her pretty well.", 
+      "response": ["hang out", "stand", "am honest", "get along"],
+      "correct": 4
+    },
+    { 
+      "question": "I just saw the movie that won the Academy Award for Best Picture. ___ , what did you think of the dress the actress wore at the ceremonies?", 
+      "response": ["Are you kidding me?", "You might say", "Speaking of which", "I tell you"],
+      "correct": 3
+    }
+  ] 
+}

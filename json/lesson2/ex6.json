@@ -1,0 +1,29 @@
+{
+    "test": [ 
+    { 
+      "question": "What did you think of her dress?", 
+      "response": ["Are you kidding me? It was gross.", "Man, I don't get along with it.", "Actually, I'm not up for it.", "I can tell you're honest with me."],
+      "correct": 1
+    },
+    { 
+      "question": "Would you like to have dinner with me at the new Chinese restaurant?", 
+      "response": ["Plus, my roomie's going.", "Actually, I'm honest with you.", "To be honest with you, I can't stand Chinese food.", "You could grab a bite."],
+      "correct": 3
+    },
+    { 
+      "question": "We're on the boat. Come over and hang out with us!",
+      "response": ["I'm up for that.", "I tell you, it's depressing.", "Speaking of which, I got the scholarship.", "Plus, it's fantastic."],
+      "correct": 1
+    },
+    { 
+      "question": "Man! I'm really hungry.", 
+      "response": ["Let's join Little League.", "Let's grab a bite to eat.", "You could say we don't hang out there.", "Speaking of which, I played in the Little League."],
+      "correct": 2
+    },
+    { 
+      "question": "I've had a really bad day.", 
+      "response": ["That's awesome.", "Even if it's raining.", "I can tell.", "Even if you're tired."],
+      "correct": 3
+    }
+  ] 
+}
