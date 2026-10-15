@@ -1,6 +1,7 @@
 from pathlib import Path
 import json
 import random
+import pyttsx3
 
 import os
 from PyQt5 import QtCore, QtWidgets
@@ -71,9 +72,6 @@ class DiffWindow(QtWidgets.QDialog):
 
         self.compare()
 
-        # self.label_ans.setReadOnly(True)
-        # self.label_ans.setEnabled(False)
-
         self.btnQuit = QtWidgets.QPushButton("&Close the window")
 
         self.vboxLabel = QtWidgets.QVBoxLayout()
@@ -140,8 +138,6 @@ class CheckWindow(QtWidgets.QDialog):
             "border: 1px dashed black; border-radius: 10px;")
 
         self.textEdit = QtWidgets.QPlainTextEdit()
-        # self.textEdit = QtWidgets.QTextEdit()
-
         self.textEdit.setFont(QFont('Times', 14))
         self.textEdit.setStyleSheet(
             "border: 1px dashed black; border-radius: 10px;")
@@ -157,6 +153,8 @@ class CheckWindow(QtWidgets.QDialog):
 
         self.timer = QtCore.QTimer()
         self.timer.timeout.connect(self.advance_progress)
+
+        # self.engine = pyttsx3.init()
 
         self.vboxLabel = QtWidgets.QVBoxLayout()
         self.vboxLabel.addWidget(self.labelRus)
@@ -222,7 +220,8 @@ class CheckWindow(QtWidgets.QDialog):
             self.i += 1
             self.last = len(self.lst[self.i][1])
             self.labelRus.setText(
-                self.lst[self.i][0] + ' ' + str(self.last) + ' ' + str(self.step))
+                self.lst[self.i][0] + ' ' + str(self.last) + ' ' + str(
+                    self.step))
         else:
             QtWidgets.QMessageBox.information(
                 self, 'Mesage', f'Your result: {self.score} from 10.')
@@ -239,7 +238,13 @@ class CheckWindow(QtWidgets.QDialog):
         answer = self.textEdit.toPlainText()
         if answer == self.lst[self.i][1]:
             self.timer.stop()
-            QtWidgets.QMessageBox.information(self, 'Mesage', 'Excellent!')
+            engine = pyttsx3.init()
+            voices = engine.getProperty('voices')
+            engine.setProperty('voice', voices[2].id)
+            engine.say(self.lst[self.i][1])
+            # engine.say(answer)
+            engine.runAndWait()
+            # QtWidgets.QMessageBox.information(self, 'Mesage', 'Excellent!')
             if self.flag:
                 self.score += 1
             self.textEdit.clear()

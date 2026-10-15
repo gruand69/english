@@ -1,0 +1,64 @@
+{
+  "test": [
+    {
+      "id": 1,
+      "russian": "Пожалуйста, сфотографируйте нас.",
+      "chinese": "请给我们拍张照片。",
+      "pronunsiation": "qǐng gěi wǒ men pāi zhāng zhào piān 。"
+    },
+    {
+      "id": 2,
+      "russian": "Вы говорите по-русски?",
+      "chinese": "你会说俄语吗？",
+      "pronunsiation": "nǐ huì shuō é yǔ ma ？"
+    },
+    {
+      "id": 3,
+      "russian": "Здесь кто-нибудь говорит по-русски?",
+      "chinese": "这里有人会说俄语吗？",
+      "pronunsiation": "zhè lǐ yǒu rén huì shuō é yǔ ma ？"
+    },
+    {
+      "id": 4,
+      "russian": "Вы говорите по-английски?",
+      "chinese": "你会说英语吗？",
+      "pronunsiation": "nǐ huì shuō yīng yǔ ma ？"
+    },
+    {
+      "id": 5,
+      "russian": "Здесь кто-нибудь говорит по-английски?",
+      "chinese": "这里有人会说英语吗？",
+      "pronunsiation": "zhè lǐ yǒu rén huì shuō yīng yǔ ma ？"
+    },
+    {
+      "id": 6,
+      "russian": "Вы очень красивая!",
+      "chinese": "你很漂亮！",
+      "pronunsiation": "nǐ hěn piào liàng ！"
+    },
+    {
+      "id": 7,
+      "russian": "Где находится зал отправления международных рейсов?",
+      "chinese": "国际出发休息室在哪里？",
+      "pronunsiation": "guó jì chū fā xiū xī shì zài nǎ lǐ ？"
+    },
+    {
+      "id": 8,
+      "russian": "Где находится зал отправления внутренних рейсов?",
+      "chinese": "国内出发休息室在哪里？",
+      "pronunsiation": "guó nèi chū fā xiū xī shì zài nǎ lǐ ？"
+    },
+    {
+      "id": 9,
+      "russian": "Где находится камера хранения?",
+      "chinese": "储藏室位于哪里？",
+      "pronunsiation": "chǔ cáng shì wèi yú nǎ lǐ ？"
+    },
+    {
+      "id": 10,
+      "russian": "Где находится стоянка такси?",
+      "chinese": "出租车停靠点在哪里？",
+      "pronunsiation": "chū zū chē tíng kào diǎn zài nǎ lǐ ？"
+    }
+  ]
+}

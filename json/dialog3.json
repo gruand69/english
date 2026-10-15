@@ -2,60 +2,60 @@
 {
     "test": [ 
     { 
-      "question": "Итак, Робин, как твой новый сосед по комнате?", 
+      "question": "Ну что, Робин, какой твой новый сосед по комнате?", 
       "response": "So, Robin, what's your new roommate like?" 
     }, 
     { 
-      "question": "Ну, если у тебя есть время, я тебе его опишу. Он довольно интересная личность.", 
+      "question": "Что ж, если у вас есть время, я вам его опишу. Он весьма колоритная личность.", 
       "response": "Well, if you have the time, I'll describe him for you. He's quite the character." 
     },
     { 
-      "question": "У меня не много времени, чувак, но в основном ты с ним ладишь?", 
+      "question": "У меня мало времени, чувак, но, в общем... вы ладите?", 
       "response": "I don't have much time, dude - but basically - do you get along with him?" 
     },
     { 
-      "question": "Ну, вообще, да - но это только потому, что мы едва ли видимся. Он либо играет в игры, либо спит целый день. Иногда он покидает свою комнату, чтобы сходить на занятия и вернуться. Потом он втает в полночь и учится всю ночь.", 
+      "question": "Ну, вообще-то да — но только потому, что мы почти не видимся. Он целыми днями играет в игры или спит. Иногда он выходит из своей комнаты — только чтобы сходить на занятия, — а потом возвращается и снова запирается у себя. А в полночь встает и всю ночь занимается.", 
       "response": "Well, actually, yes - but that's only because we hardly ever see each other. He plays games or sleeps all day. Sometimes he gets out of his room, just to go to his classes, and then he comes back and goes to his room. Then he'll get up at midnight and study all night." 
     },
     { 
-      "question": "Серьезно, вы даже не едите вместе или зависаете, тогда?", 
+      "question": "Серьёзно? Значит, вы не едите вместе и не проводите время вместе?", 
       "response": "Really? You don't eat together or hang out, then?"
     },
     { 
-      "question": "В действительноси я даже не знаю, ест ли он вообще.", 
+      "question": "Честно говоря, я даже не знаю, ест ли он.", 
       "response": "The truth is, I don't even know if he eats." 
     },
     { 
-      "question": "Тогда по крайней мере он не оставляет грязь на кухне.", 
+      "question": "Зато он хотя бы не оставляет после себя беспорядок на кухне.", 
       "response": "Then at least he doesn't leave a mess in the kitchen." 
     },
     { 
-      "question": "Нет! Он невероятно аккуратен. Он дейстаительно оставляет ванну чистой, и, кажется, у него совсем нет грязных вещей. Он как призрак.", 
+      "question": "Нет! Он невероятно аккуратен. Он действительно оставляет ванную чистой — да и грязной одежды у него, похоже, не бывает. Он словно призрак.", 
       "response": "No! He is incredibly neat. He actually leaves the bathroom clean - and he doesn't seem to have dirty clothes. He's like a ghost." 
     },
     { 
-      "question": "Слушай, похоже у тебя идеальный сосед!", 
+      "question": "Слушай, похоже, у тебя идеальный сосед по комнате!", 
       "response": "Man, it sounds like you have the perfect roommate!" 
     },
     { 
-      "question": "А твой? Как он тебе?", 
+      "question": "А твой? Какой он?", 
       "response": "What about yours? What's he like?" 
     },
     { 
-      "question": "Ну, мой совсем наоборот. У нас много общего, и мы проводим много времени вместе. У нас два общих занятия, и мы состоим в одном братстве, поэтому мы реально прекрасные друзья.", 
+      "question": "Ну, он — полная противоположность твоему. Мы во многом похожи и часто проводим время вместе. У нас общие занятия, и мы состоим в одном братстве, так что мы — отличные друзья.", 
       "response": "Well, he's like the opposite of yours. We're a lot alike, and we're together a lot. We have two classes together and we're in the same fraternity, so we're really great friends." 
     },
     { 
-      "question": "Звучит, как-будто у тебя отличный сосед!", 
+      "question": "По-моему, у тебя идеальный сосед по комнате!", 
       "response": "Sounds to me like you have the perfect roommate!" 
     },
     { 
-      "question": "Ну, и да и нет. Он как торнадо в доме. Прежде всего он всегда оставляет беспорядок на кухне, никогда не моет посуду. Плюс он не кладет свои вещи на место. Я не говорю, что остается после него в ванной... ", 
+      "question": "Ну-у... и да, и нет. Дома он — настоящий ураган. Во-первых, после него на кухне вечный бардак — он никогда ничего не моет. К тому же разбрасывает одежду где попало. Не говоря уже о том, в каком виде он оставляет ванную... ", 
       "response": "Well, Mmmm yes - and no. He's like a tornado in the house. In the first place, he always leaves a big mess in the kitchen, he never washes. Plus, he leaves all his clothes all over the place. Not to mention how he leaves the bathroom..." 
     },
     { 
-      "question": " Ну вот, Дэйв. Он очень похож на тебя. Не мудрено, что вы так хорошо поладили!", 
-      "response": "Come on, Dave - he sounds a lot like you. No wonder you get along so well!" 
+      "question": "Да ладно тебе, Дэйв — он очень на тебя похож. Неудивительно, что вы так хорошо ладите!", 
+      "response": "Come on, Dave - he sounds a lot like you. No wonder you get along so well!"
     }
   ] 
 }

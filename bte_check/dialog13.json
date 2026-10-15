@@ -37,7 +37,7 @@
       "response": "Where will I find the check in desk there?"
     },{ 
       "question": "Вам не надо регистрироваться. Следуйте указателю «транзит», а дальше ищите Ваш номер рейса.", 
-      "response": "You don't need to check in. Follow the sign «connecting flights» and then look out for your flight number."
+      "response": "You don't need to check in. Follow the sign connecting flights and then look out for your flight number."
     },
     { 
       "question": "Большое спасибо.",

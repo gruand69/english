@@ -1,0 +1,93 @@
+
+{
+  "test": [
+    {
+      "question": "Доктора Мэннинг и Шарп. Чем я могу вам помочь?",
+      "response": "Drs. Manning and Sharp. How can I help you?"
+    },
+    {
+      "question": "Здравствуйте. Меня зовут Лиза Питерсон. Я хотела бы записаться на прием к доктору Шарпу — желательно на следующей неделе.",
+      "response": "Hello. My name is Lisa Peterson. I'd like to make an appointment to see Dr. Sharp, hopefully sometime next week."
+    },
+    {
+      "question": "И по какому вопросу вы хотите с ним встретиться?",
+      "response": "And what is it you want to see him about?"
+    },
+    {
+      "question": "Мне нужно пройти полное медицинское обследование для новой работы, на которую я собираюсь устроиться.",
+      "response": "I need a complete physical for a new job I'm about to take."
+    },
+    {
+      "question": "У вас есть форма, которую нужно заполнить?",
+      "response": "Do you have a form that has to be filled out?"
+    },
+    {
+      "question": "Да, есть - и, похоже, мне потребуется довольно тщательное обследование.",
+      "response": "Yes, I do - and it looks like I'll need a pretty thorough exam."
+    },
+    {
+      "question": "Вы можете прислать мне это по факсу? Так я буду знать, сколько времени выделить на ваш прием.",
+      "response": "Can you fax it to me? That way I'll know how much time to allot for your appointment."
+    },
+    {
+      "question": "Можете ли вы дать мне номер вашего факса?",
+      "response": "Can you give me your fax number?"
+    },
+    {
+      "question": "Номер — 202-739-5906.",
+      "response": "It's 202-739-5906."
+    },
+    {
+      "question": "Хорошо. Я сейчас же отправлю вам это по факсу. Перезвоните мне, когда получите?",
+      "response": "Good. I'll fax it to you right away. Will you call me back when you get it?"
+    },
+    {
+      "question": "Хорошо.",
+      "response": "Right."
+    },
+    {
+      "question": "Здравствуйте, Лиза. Это звонят из кабинета доктора Шарпа. Я вижу, что вам требуется часовой прием, но у доктора Шарпа не будет такой возможности как минимум в течение месяца. Однако я могу записать вас к доктору Мэннингу на следующий четверг, на 13:00. Вам это подходит?",
+      "response": "Hello, Lisa. This is Dr. Sharp's office. I see you're going to need an hour-long appointment, and Dr. Sharp won't be able to do that for at least another month. I could give you an appointment with Dr. Manning next Thursday, though, at 1 p.m. Would you like to take that?"
+    },
+    {
+      "question": "Гм... да, звучит неплохо. Нужно ли мне как-то подготовиться к экзамену?",
+      "response": "Um ... yes, that sounds fine. Is there anything I should do to prepare for the exam?"
+    },
+    {
+      "question": "Да. Я понимаю, что это будет непросто, но вам нельзя ничего есть или пить после полуночи накануне процедуры. Я бы с радостью назначил вам прием на более раннее время, но свободных мест больше нет.",
+      "response": "Yes. I know this will be difficult, but you mustn't eat or drink anything after midnight the night before. I wish I could give you an appointment earlier in the day, but we don't have any other openings."
+    },
+    {
+      "question": "Хорошо. Но если кто-то отменит запись раньше в течение дня, пожалуйста, дайте мне знать. Я бы гораздо охотнее пришел рано утром.",
+      "response": "O.K. But if there is a cancellation earlier in the day, please let me know. I'd much rather come in early in the morning."
+    },
+    {
+      "question": "Конечно.",
+      "response": "Of course."
+    },
+    {
+      "question": "Большое спасибо. До свидания.",
+      "response": "Thanks very much. Good-bye."
+    },
+    {
+            "response": "Hi, Maria. It's Lisa. Listen, I'm not going to be able to have lunch with you next Thursday. I have to have a physical for my new job, and it's on Thursday at one o'clock - and it's in Alexandria. I'm really sorry. Can we take it another day?",
+            "question": "Привет, Мария.Это Лиза.Слушай, я не смогу пообедать с тобой в следующий четверг.Мне нужно пройти медосмотр перед моей новой работой, и он будет в четверг в час дня, и он будет в Александрии.Мне очень жаль.Можем ли мы взять это в другой день?"
+        },
+        {
+            "response": "No problem. How about Friday at 12:30?",
+            "question": "Без проблем.Как насчет пятницы в 12:30?"
+        },
+        {
+            "response": "Oh dear, I can't do that, either. Could you do Wednesday?",
+            "question": "О боже, я тоже не могу этого сделать.Не могли бы вы прийти в среду?"
+        },
+        {
+            "response": "Look, we're going to have to take it the following week. We've both got too much on our plates right now. Let's say Thursday, the twenty-fourth, at one o'clock. OK?",
+            "question": "Слушай, нам придется сдать его на следующей неделе.У нас обоих сейчас слишком много дел.Допустим, четверг, двадцать четвертого числа, в час дня.ХОРОШО?"
+        },
+        {
+            "response": "Perfect. We'll have a lot to talk about by then!",
+            "question": "Идеальный.К тому времени нам будет о чем поговорить!"
+        }
+  ] 
+}

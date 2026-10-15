@@ -1,0 +1,37 @@
+
+{
+    "test": [ 
+    { "id": 1,
+      "english": "I agree / Same opinion / Yes", 
+      "chinese": "wo tongyi" 
+    }, 
+    { "id": 2,
+      "english": "Good job! / Well done / Praise", 
+      "chinese": "gan de hao" 
+    },{ "id": 3,
+      "english": "Sounds good / That works / I agree",
+      "chinese": "ting qilai bucuo" 
+    },{ "id": 4,
+      "english": "That's fine./ It's OK / Acceptable", 
+      "chinese": "na hen hao" 
+    },{ "id": 5,
+      "english": "Have fun! / Enjoy yourself", 
+      "chinese": "wan de kaixin" 
+    },{ "id": 6,
+      "english": "Come on! / Let's start / Hurry / Don't be silly", 
+      "chinese": "lai ba" 
+    },{ "id": 7,
+      "english": "Right away / Immediately / Now", 
+      "chinese": "mashang" 
+    },{ "id": 8,
+      "english": "Go ahead / You may do it / Permission given", 
+      "chinese": "qinq bian" 
+    },{ "id": 9,
+      "english": "Check it out / Look at this / Try this", 
+      "chinese": "kan yi kan" 
+    },{ "id": 10,
+      "english": "Keep going / Continue / Don't stop", 
+      "chinese": "jixu" 
+    }
+  ] 
+}

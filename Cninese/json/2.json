@@ -1,0 +1,55 @@
+
+{
+    "test": [
+      {
+        "id": 1,
+        "english": "Пожалуйста, сфотографируйте нас.",
+        "chinese": "Qǐng gěi wǒmen pāi zhāng zhàopiàn."
+      },
+      {
+        "id": 2,
+        "english": "Вы говорите по ­русски?",
+        "chinese": "Nǐ huì shuō èyǔ ma?"
+      },
+      {
+        "id": 3,
+        "english": "Здесь кто­нибудь говорит по­-русски?",
+        "chinese": "Zhèlǐ yǒurén huì shuō èyǔ ma?"
+      },
+      {
+        "id": 4,
+        "english": "Вы говорите по-английски?",
+        "chinese": "Nǐ huì shuō yīngyǔ ma?"
+      },
+      {
+        "id": 5,
+        "english": "Здесь кто­нибудь говорит по­-английски?",
+        "chinese": "Zhèlǐ yǒurén huì shuō yīngyǔ ma?"
+      },
+      {
+        "id": 6,
+        "english": "Вы очень красивая!",
+        "chinese": "Nǐ hěn piàoliang!"
+      },
+      {
+        "id": 7,
+        "english": "Подскажите, пожалуйста, где находится зал отправления международных рейсов?",
+        "chinese": "Qǐngwèn guójì chūfā dàtīng zài nǎlǐ?"
+      },
+      {
+        "id": 8,
+        "english": "Подскажите, пожалуйста, где находится зал отправления внутренних рейсов?",
+        "chinese": "Qǐngwèn guónèi chūfā dàtīng zài nǎlǐ?"
+      },
+      {
+        "id": 9,
+        "english": "Где находится камера хранения?",
+        "chinese": "Xínglǐ jìcún chù zài nǎlǐ?"
+      },
+      {
+        "id": 10,
+        "english": "Где находится стоянка такси?",
+        "chinese": "Dí shì zhàn zài nǎlǐ?"
+      }
+  ] 
+}

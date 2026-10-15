@@ -1,0 +1,46 @@
+
+{
+    "test": [ 
+    { 
+      "question": "Администратор, чем могу помочь?", 
+      "response": "Reception, how can I help you?" 
+    },
+    { 
+      "question": "Могу я заказать завтрак в номер?", 
+      "response": "Can I order breakfast in my room?" 
+    },
+    { 
+      "question": "Да, сэр. Там на Вашей двери формы.", 
+      "response": "Yes, sir. There are forms on your door." 
+    },
+    { 
+      "question": "Да, я их нашел.", 
+      "response": "Yes, I've got them."
+    },
+    { 
+      "question": " Заполните одну из них, пометив галочками то, что Вам нужно. И повесьте их за дверь до полуночи.", 
+      "response": "Fill one out, ticking the items you want. Then put it outside your door before midnight." 
+    },
+    { 
+      "question": "А как насчет времени?", 
+      "response": "What about the time?" 
+    },
+    { 
+      "question": "Вы помечаете то время, в которое Вы хотите, чтобы Вам подали завтрак.", 
+      "response": "You tick the time you need your breakfast." 
+    },
+    { 
+      "question": "Хорошо. За это надо доплачивать?", 
+      "response": "O.K. Is it extra?" 
+    },
+    { 
+      "question": "Плата за доставку - фунт пятьдесят.", 
+      "response": "The delivery charge is one pound fifty." 
+    },
+    { 
+      "question": "Большое спасибо.", 
+      "response": "Thank you very much." 
+    } 
+    
+  ] 
+}

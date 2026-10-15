@@ -7,6 +7,7 @@ from lesson_list import LessonList
 from central_widget import MyWindow
 from check_word import CheckWindow
 
+
 class MainWindow(QtWidgets.QMainWindow):
 
     def __init__(self):

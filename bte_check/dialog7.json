@@ -27,11 +27,11 @@
     },
     { 
       "question": "Нет, спасибо.", 
-      "response": "No, thank you" 
+      "response": "No, thank you." 
     },
     { 
       "question": "С Вас 35.50. ", 
-      "response": "It's 35.50" 
+      "response": "It's 35.50." 
     },
     { 
       "question": "Вот, возьмите 40 фунтов, сдачи не надо.", 

@@ -1,0 +1,29 @@
+
+{
+    "test": [ 
+    { 
+      "question": "Администратор. Чем могу помочь?", 
+      "response": "Reception. How can I help you?" 
+    },
+    { 
+      "question": "Это комната 330. Могу я попросить, чтобы меня утром разбудили?", 
+      "response": "This is room 330. Can I ask for a morning call?" 
+    },
+    { 
+      "question": "В котором часу?", 
+      "response": "What time?" 
+    },
+    { 
+      "question": "В 8 часов утра.", 
+      "response": "8 o'clock in the morning."
+    },
+    { 
+      "question": "Да, сэр. Комната 330, 8 утра. Спокойной ночи.", 
+      "response": "Yes, sir. Room 330, 8 a.m. Good night." 
+    },
+    { 
+      "question": "Доброе утро, 8 утра.", 
+      "response": "Good morning, it's 8 o'clock." 
+    }    
+  ] 
+}
